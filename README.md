@@ -18,7 +18,7 @@ This was mostly inspired by swyx second brain, which you can find here : https:/
 
 However in more practical terms, i been employing note keeping for ages across a large number of notebooks, google keep, evernote, markdown repo, etc, etc.
 
-> ![old-notebook-collection](assets/2022/Nov/old-notebook-collection.jpeg)
+![old-notebook-collection](assets/2022/Nov/old-notebook-collection.jpeg)
 >Exhibit A: 2 drawers of some of my old discarded notebooks - so yes I have a problem
 
 This is more of an attempt to conslidate them all, and end this back and forth across multiple tools - hopefully once and for all - and doing in public will hopefully prevent me from switching things around (again)
