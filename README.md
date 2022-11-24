@@ -16,7 +16,7 @@ These notes are "raw" and not a replacement for more "polished" content that wou
 # Why is this public?
 This was mostly inspired by swyx second brain, which you can find here : https://github.com/sw-yx/brain
 
-However in more practical terms, i been employing note keeping, and the 2nd brain concept for ages across a large number of notebooks, google keep, evernote, markdown repo, etc, etc.
+However in more practical terms, i been employing note keeping for ages across a large number of notebooks, google keep, evernote, markdown repo, etc, etc.
 
 ![[old-notebook-collection.jpeg]]
 Exhibit A: 2 drawers of some of my old discarded notebooks - so yes I have a problem
