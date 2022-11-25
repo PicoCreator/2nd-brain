@@ -1,3 +1,5 @@
+> Article is now live at : https://substack.tech-talk-cto.com/p/aspiring-dev-to-cto-what-is-the-core
+
 ![Picture of a kid asking a question in a classroom](unsplash/kid-asking-question-in-classroom.jpg)
 
 **_Beyond specific tech tools or programming skills, these would be_**
