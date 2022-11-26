@@ -8,7 +8,7 @@
     -   **_Understanding processes in logical terms : If this happen, do this, else that_**
     -   **_Understanding of "cause and effect"_**
     -   **_Planning and deciding on how to change processes, to reach a desired goal_**
-    -   **_Practising cause and effect on a much larger scale_** : Visualising, organising and understanding how large systems and processes, interact with each other with many logical interactions. And how any unexpected outcome in one system, can cascade into various outcomes in other systems.  
+    -   **_Practising cause and effect on a much larger scale_** : Visualising, organising and understanding how large systems and processes, interact with each other over many logical interactions. Especially how any unexpected outcome in one system, can cascade into various errors in other systems.  
         
 -   **_Other very useful skills_** (to help with systems thinking)
     -   **_Keeping track of a large number of things in your head_**
