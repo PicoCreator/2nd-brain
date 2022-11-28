@@ -15,13 +15,13 @@ These notes are "raw" and not a replacement for more "polished" content that wou
 - you are welcome to read them, contribute to them, suggest additions - **just do not copy them and share them as your own**.
 
 # Why is this public?
-This was mostly inspired by swyx second brain, which you can find here : https://github.com/sw-yx/brain
+This was mostly inspired by swyx second brain, which you can find here : https://github.com/sw-yx/brain (im blatently using his TOS, till i figure out if i want to make changes)
 
 However in more practical terms, i been employing note keeping for ages across a large number of notebooks, google keep, evernote, markdown repo, etc, etc.
 
 ![old-notebook-collection](assets/2022/Nov/old-notebook-collection.jpeg)
 > Exhibit A: 2 drawers full of some of my old discarded notebooks - so yes I have a problem
 
-This is more of an attempt to conslidate them all, and end this back and forth across multiple tools - hopefully once and for all - and doing in public will hopefully prevent me from switching things around (again)
+So this project is more of an attempt to conslidate them all, and end this back and forth across multiple tools - hopefully once and for all - and doing in public will hopefully prevent me from switching things around (again)
 
 Additionally: Personal / Sensitive / Private stuff is already being stored in a seperate repo.

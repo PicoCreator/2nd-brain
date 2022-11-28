@@ -13,54 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "8b9481a1ef567ee4"
-          }
-        ]
-      },
-      {
-        "id": "c50595039651c647",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "40f1b510720dc453",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "README.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              }
-            },
-            "group": "8b9481a1ef567ee4"
+            }
           }
         ]
       }
@@ -128,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md"
           }
         }
       }
@@ -166,6 +123,10 @@
   },
   "active": "7c5cc3607c507e57",
   "lastOpenFiles": [
+    "A - TechTalkCTO/P - Introducing Series/Intoducing Factory Building Games - Notes.md",
+    "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
+    "A - TechTalkCTO/P - Questions From Devs to CTO/Aspiring dev to CTO - What is the core non-tech skills needed for a programmer?.md",
+    "README.md",
     "2nd-brain.md"
   ]
 }

@@ -52,13 +52,15 @@ You do not need to understand the working of every process and function, you wou
 
 All while maintaining a deep understanding of the function and process you are writing.
 
-**_Large teams is also where soft skills in communications is essential in more senior positions, with larger team sizes._**
+**_Large teams is also where soft skills in communications is essential in more senior positions, with larger team sizes._** Where discussion and planning is very often half the battle.
 
 **_If thinking about processes, the why’s and hows, everyday and improving on them appeals to you, this maybe the right job for you._**
 
 **_Especially, if you find joy in helping others lives or quality of life improve through the processes you put in place. Programming is a path that is able to let you do so at scale._**
 
 If all this sounds good, perhaps programming is a career that is suitable for you
+
+---
 
 > As a programmer myself, there is a danger that the above list of skills can be viewed as a form of gatekeeping. But that is not the intention here. If you are weak in any of the above core skills, it does not mean it’s impossible to be a programmer, or to learn programming.  
 >   

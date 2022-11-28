@@ -1,0 +1,1 @@
+Loosely defined section, where I introduce anything and everything. From games to whatever tech thing I feel like
