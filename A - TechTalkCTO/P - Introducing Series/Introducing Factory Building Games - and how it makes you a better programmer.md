@@ -16,10 +16,10 @@ Dun take my word for it, let reddit comments of one of the games in the genre sp
 
 Factory Building Games, or FBG for short, are at its core about
 
-- Constructing and expanding a large base of multiple buildings
+- Constructing and expanding a large base of multiple building blocks
 - Connected together to build products using an evergrowing continous supply of materials
 - To continously feed a very intensive "resource sink" (the games goal)
-- Which runs automatically without the player interaction 
+- Which runs automatically without the player interaction for long periods of time
 
 One of the key differences between FBG, and typical resource management games. Is the endless continous nature of the main production lines, due to the usually infinite scaling nature of the "resource sink". Allowing everything to run "infinitely" without player interaction.
 
