@@ -59,12 +59,8 @@
             "id": "74ceaf5f1685bc0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - List of various things/P - Factory-Building-Games/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -142,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - List of various things/P - Factory-Building-Games/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - List of various things/P - Factory-Building-Games/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "A - List of various things/P - Factory-Building-Games/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -203,15 +195,15 @@
   },
   "active": "74ceaf5f1685bc0e",
   "lastOpenFiles": [
-    "A - List of various things/README.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - Notes.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it makes you a better programmer.md",
     "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
     "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - Notes.md",
     "A - List of various things/P - Factory-Building-Games/README.md",
+    "A - List of various things/README.md",
     "A - TechTalkCTO/P - Introducing Series/Intoducing Factory Building Games - Notes.md",
     "A - TechTalkCTO/P - Questions From Devs to CTO/Aspiring dev to CTO - What is the core non-tech skills needed for a programmer?.md",
     "A - TechTalkCTO/P - Questions From Devs to CTO/README.md",
-    "README.md",
-    "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how i t makes you a better programmer.md",
-    "A - TechTalkCTO/P - Introducing Series/assets/factorio-reddit-comment-highlight.png"
+    "README.md"
   ]
 }

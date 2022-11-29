@@ -9,7 +9,7 @@ If you ever wanted to know how it feels like to be a senior software engineer, a
 
 Factory building games, allows you to experience all of them in a highly compressed timeframe of hours instead of days. All without the common frusfration and painpoint of programming. (Wierd obscure library bugs, Company politics or burecracy in processes, budget ... )
 
-![factorio-reddit-comment-highlight.png](./assets/factorio-reddit-comment-highlight.png)
+![factorio-reddit-comment-highlight.png](./factorio-reddit-comment-highlight.png)
 Dun take my word for it, let reddit comments of one of the games in the genre speak for itself
 
 ## What Are Factory Building Games?
@@ -40,7 +40,6 @@ This gradual ramp up in complexity encourages constantly scaling up both consump
 
 Here is an example work loop for a programmer...
 
-(@todo)
 
 Here is an example game loop for a typical FBG ...
 
@@ -65,7 +64,7 @@ And the flip side though - it should come with a warning label, this game genre 
 
 ## Sounds good, how can I get started?
 
-You can find the full list of FBG games here
+You can find the full list of FBG games at : https://github.com/PicoCreator/awesome-list-factory-building-games
 
 > If you find yourself struggling with a particular game, don’t be afraid to reach out for help, or search for online guides. There are plenty of online resources (including forums and walkthroughs) that can assist you. In addition, many factory building games have tutorial levels that can teach you the basics.
 
