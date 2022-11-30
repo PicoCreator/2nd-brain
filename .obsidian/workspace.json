@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/Aspiring dev to CTO - What is the core non-tech skills needed for a programmer?.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,8 +59,12 @@
             "id": "74ceaf5f1685bc0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -72,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md"
+              }
             }
           },
           {
@@ -193,17 +201,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "74ceaf5f1685bc0e",
+  "active": "b09fb0cf57974ce7",
   "lastOpenFiles": [
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - Notes.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it makes you a better programmer.md",
-    "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
-    "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - Notes.md",
-    "A - List of various things/P - Factory-Building-Games/README.md",
-    "A - List of various things/README.md",
-    "A - TechTalkCTO/P - Introducing Series/Intoducing Factory Building Games - Notes.md",
+    "README.md",
+    "A - TechTalkCTO/README.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-dsp.jpg",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/mermaid-programmer-workflow.png",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-satisfactory.jpg",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-factorio.jpg",
     "A - TechTalkCTO/P - Questions From Devs to CTO/Aspiring dev to CTO - What is the core non-tech skills needed for a programmer?.md",
-    "A - TechTalkCTO/P - Questions From Devs to CTO/README.md",
-    "README.md"
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/factorio-reddit-comment-highlight.png"
   ]
 }
