@@ -4,79 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d452b88c115145db",
+        "id": "7b7d29e3bfe8e7ec",
         "type": "tabs",
         "children": [
           {
-            "id": "dc97fa50271620ae",
+            "id": "d2eeaa4f5f15d476",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "R - Uilicious/wip-notes/WIP work notes.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "2494762429c8b4d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59d9c130a0fec981",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b09fb0cf57974ce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74ceaf5f1685bc0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d99b3e76f3f2eb8c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
+                "file": "R - Uilicious/wip-notes/WIP work notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
+                "file": "R - Uilicious/wip-notes/WIP work notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md"
+                "file": "R - Uilicious/wip-notes/WIP work notes.md"
               }
             }
           },
@@ -201,17 +144,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b09fb0cf57974ce7",
+  "active": "d2eeaa4f5f15d476",
   "lastOpenFiles": [
+    "R - Uilicious/wip-notes/WIP work notes.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
     "README.md",
     "A - TechTalkCTO/README.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-dsp.jpg",
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/mermaid-programmer-workflow.png",
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-satisfactory.jpg",
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-factorio.jpg",
     "A - TechTalkCTO/P - Questions From Devs to CTO/Aspiring dev to CTO - What is the core non-tech skills needed for a programmer?.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/factorio-reddit-comment-highlight.png"
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md"
   ]
 }
