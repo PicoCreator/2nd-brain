@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7b7d29e3bfe8e7ec",
+        "id": "f23473417ab1aad4",
         "type": "tabs",
         "children": [
           {
-            "id": "d2eeaa4f5f15d476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R - Uilicious/wip-notes/WIP work notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b843ff7b08a56d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "793a9cdac9dfb727",
+            "id": "cbca0adf7065cc97",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,15 +19,14 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "8951df945a326726",
+        "id": "3c67fd2f773be27c",
         "type": "tabs",
         "children": [
           {
-            "id": "a43dff59da738090",
+            "id": "90e7f394067b4993",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -61,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e5f658b907d5a4dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/twitter screenshots.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/High level draft of the article.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/High level draft of the article.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/High level draft of the article.md"
+                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md"
               }
             }
           },
@@ -187,17 +175,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a43dff59da738090",
+  "active": "cbca0adf7065cc97",
   "lastOpenFiles": [
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/twitter screenshots.md",
     "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
     "A - TechTalkCTO/P - Introducing Series/AI in Q42022/High level draft of the article.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
-    "A - TechTalkCTO/P - Introducing Series/Untitled.md",
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/tweet-ai-bullshit.png",
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/room-1.jpeg",
     "R - Uilicious/wip-notes/WIP work notes.md",
-    "README.md",
-    "A - TechTalkCTO/README.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-dsp.jpg",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/mermaid-programmer-workflow.png",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/ss-satisfactory.jpg"
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/room-2.jpeg",
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/room-3.jpeg",
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/chat-gpt-images.png",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md"
   ]
 }

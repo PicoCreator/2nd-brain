@@ -34,7 +34,7 @@ Yes, but it is not thinking, it is dreaming.
 
 Understnadbly, the above is confusing, so let me elaborate...
 
-To understand better, lets start with an oversimplified explaination on how these AI models fundementally work. By using a human analogies, which you may have relatable real life experience with.
+lets start with an oversimplified explaination on how these AI models fundementally work. By using a human analogies, which you may have relatable real life experience with.
 
 > First the AI is given a giant dataset, of many articles (or images) scrapped from the internet from various different sources. Which is used to provide the foundation, of all its knowledge, loosely connected together. 
 > 
@@ -79,8 +79,9 @@ To very impressively, emulating interactions with a virtual machines (rather acc
 
 - What does it mean for the future of work?
 	- Im going to avoiding speculating too much here, because predicting the future accurately is really really hard, and I want to avoid adding to the FOMO
-	- in the best case scenerio first it will be exciting, with the rise of new exciting tools, then it will be really boring, with small but very useful enhancements to daily work tools.
-	- We will see more and more of AI tools in chat based, or maybe even speach based being integrated in various things in our daily life
+	- in the best case scenerio first it will be exciting, with the rise of new exciting tools that will change parts of how we do office work in waves
+	- then it will be really boring, with small but very useful enhancements to daily work tools.
+	- We will see more and more of AI assitant tools in chat based, or maybe even speach based being integrated in various things in our daily life, 
 	- This will make automation in general more accessible
 	- While lowering the barrier of entry in performing such automation
 	- This is significant enough, that in my oppion, every startup found (including myself) should be taking notes, and exploring how to integrate 
