@@ -22,3 +22,8 @@
 - Marketing
 	- SEO article generation (I HATE THIS!!!)
 	- Iterating and experimentation in ad copies
+- Obvious stuff
+	- Translation across language (maybe using BLOOM, a bigger model?)
+- Lifestyle stuff, in a more iterative / conversation manner
+	- Calendar planning
+	- Route planning
