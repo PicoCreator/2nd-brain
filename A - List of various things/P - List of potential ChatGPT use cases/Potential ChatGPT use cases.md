@@ -16,4 +16,6 @@
 		  - High level story boarding
 		  - World building, and explaination
 		  - Actual chapter writing
-	  
+- Legal 
+	- Drafting of legal documents
+	- Explaining of complex legal documents in plain english (but technically not a lawyer)
