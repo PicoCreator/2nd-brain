@@ -18,3 +18,7 @@ To very impressively, emulating interactions with a virtual machines (rather acc
 
 ( twitter example of VM emulation: https://twitter.com/_msx47/status/1599465548852899840 )
 ( seperate article: https://www.engraved.blog/building-a-virtual-machine-inside/ )
+
+ChatGPT writing business plans: https://twitter.com/TheAviPrasad/status/1600012861669281796
+
+Generating novels https://andrewmayneblog.wordpress.com/2022/11/30/collaborative-creative-writing-with-openais-chatgpt/
