@@ -1,4 +1,10 @@
-![AI art generated image for : robot dreaming of sheep](./robot-dreaming-of-sheep.png)
+---
+title: Introducing AI / ChatGPT, and how it dreams in 2022
+published: false
+description: with large language models (like chatGPT), and AI art generation - everything we know about tech in the next few years, maybe changing drastically
+tags: #openai #beginners #tooling #ai 
+cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wddjpm3c5q85na37xtrr.png
+---
 
 with large language models (like chatGPT), and AI art generation - everything we know about tech in the next few years, maybe changing drastically
 
@@ -23,7 +29,7 @@ Can be used to generate the following image
 
 ![Example of a living room, generated with the previous prompt with both chatGPT and midjourney combined](./tweet-citation/ai-art-gen-rooms.jpg)
 
-Or write buisness plans for a website
+Or write business plans for a website
 
 ![[chat-gpt-turbo-tax.jpg]]
 
@@ -90,7 +96,7 @@ Now, lets use a human analogy instead
 Flipping it back around
 
 > You, with your prompts is a participant in a dream.
-> With the AI being the dream world, trying its best to be, as convincingly as possible, a good dream. Where it answer your questions in a very belivable manner.
+> With the AI being the dream world, trying its best to be, as convincingly as possible, a good dream. Where it answer your questions in a very believable manner.
 > 
 > And just like your dream world, it can be at times entirely realistic, and factually accurate, or as imaginary (and perhaps exciting) as it wants to be
 
@@ -102,7 +108,7 @@ To hilariously answer questions as a cat when instructed
 
 ![[tweet-in-meow.png]]
 
-To very impressively, even emulating interactions with a virtual machine (rather accurately!)
+To very impressively, even [emulating interactions with a virtual machine (rather accurately!)](https://www.engraved.blog/building-a-virtual-machine-inside/)
 
 ## What does it mean for the future of work?
 
@@ -110,7 +116,7 @@ It's difficult to predict exactly how the advancements in AI will impact the fut
 
 One thing that seems clear is that the current wave of "prompt-to-output" models is having its "iPhone revolution moment". Just as the iPhone changed how everyday people interact with software and ushered in the era of smartphones, prompt-to-output models have the potential to change how we work and interact with tools.
 
-It has already started fundemnatlly changing industries, today. Especially in SEO copywriting, and stock illustration / photo industries.
+It has already started fundamentally changing industries, today. Especially in SEO copywriting, and stock illustration / photo industries.
 
 The next wave could manifest in waves of AI assistant work tools and practical enhancements to existing tools, ultimately making automation more accessible and lowering the barrier of entry for performing tasks.
 
