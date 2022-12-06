@@ -4,6 +4,11 @@ Highlevel draft of summary
 > This article focuses more of the current state of AI, on 5th Dec 2022. As a means of briefing others outside this industry, what has been going on recently. With a focus on recent developments.
 > 
 > I have a seperate article (@TODO), seperated out, which is more about my thoughts and oppinions
+> 
+> Recommended music for the article - GITS Stand Alone Complex: Be Human
+> (youtube music) (spotify)
+
+
 
 - How AI has advanced drastically in the past 1 year
 	- The 2 major changes for users in 2022, can be seen in "prompt-to-output" models mostly
@@ -53,16 +58,32 @@ Now when you are asking it a question, or giving it a prompt. The key thing to n
 
 Flipping it back around
 
-> You, with your prompts is nothing but an indivdual in a dream.
-> With the AI being the dream world, trying its best to be, as convincingly as possible, a good dream.
+> You, with your prompts is a participant indivdual in a dream.
+> With the AI being the dream world, trying its best to be, as convincingly as possible, a good dream. Where it answer your questions in a very belivable manner.
 > 
 > And just like your dream world, it can be at times entirely realistic, and factually accurate, or as imaginary as it wants to be
 
+This dreamlike state, allows it both to make basic math mistakes with high confidence
+
+( twitter example of math mistake: https://twitter.com/ipapapa/status/1598532071990796289 )
+
+To hilariously answer questions as a cat when instructed
+
+( twitter example of meow chatgpt : https://twitter.com/originalspin/status/1598583192050864153 )
+
+To very impressively, emulating interactions with a virtual machines (rather accurately!)
+
+( twitter example of VM emulation: https://twitter.com/_msx47/status/1599465548852899840 )
+( seperate article: https://www.engraved.blog/building-a-virtual-machine-inside/ )
+
+
 - What does it mean for the future of work?
-	- Im going to avoiding speculating too much here, but first it will be exciting, then really boring.
+	- Im going to avoiding speculating too much here, because predicting the future accurately is really really hard, and I want to avoid adding to the FOMO
+	- in the best case scenerio first it will be exciting, with the rise of new exciting tools, then it will be really boring, with small but very useful enhancements to daily work tools.
 	- We will see more and more of AI tools in chat based, or maybe even speach based being integrated in various things in our daily life
 	- This will make automation in general more accessible
 	- While lowering the barrier of entry in performing such automation
+	- This is significant enough, that in my oppion, every startup found (including myself) should be taking notes, and exploring how to integrate 
 
 > Was this written by an AI?
 > No, though i really did try my best to make it do so. But somehow it just seemed to prefer the "typical coporate copywriting style", which ultimately ain't me
