@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8646b2c57528ab57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - List of various things/P - List of potential ChatGPT use cases/Potential ChatGPT use cases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3c67fd2f773be27c",
@@ -116,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
+                "file": "A - List of various things/P - List of potential ChatGPT use cases/Potential ChatGPT use cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
+                "file": "A - List of various things/P - List of potential ChatGPT use cases/Potential ChatGPT use cases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md"
+                "file": "A - List of various things/P - List of potential ChatGPT use cases/Potential ChatGPT use cases.md"
               }
             }
           },
@@ -175,10 +188,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "cbca0adf7065cc97",
+  "active": "8646b2c57528ab57",
   "lastOpenFiles": [
-    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/twitter screenshots.md",
     "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/twitter screenshots.md",
     "A - TechTalkCTO/P - Introducing Series/AI in Q42022/High level draft of the article.md",
     "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/tweet-ai-bullshit.png",
     "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/room-1.jpeg",

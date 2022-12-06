@@ -1,0 +1,19 @@
+
+- Slack / Work chat enhancment
+	- Automating leads analsyis and research
+	- Automating query of sales and marketing projection
+	- Automating response to social media quries in a more persona
+- Automation in general
+	- Creating of test scripts (UI, Api, or unit test)
+		- Yes i am working on this
+	- Code snippet generation
+- Enterprise
+	- Sales coaching for large sales team, on existing leads / customer data
+	  (Generating ideas, on how to grow existing accounts)
+  - Writing in general (Some workflow issues need to be worked out)
+	  - Content / Article generation in an iterative format
+	  - Novel writing in various stages
+		  - High level story boarding
+		  - World building, and explaination
+		  - Actual chapter writing
+	  
