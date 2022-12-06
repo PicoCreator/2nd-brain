@@ -19,3 +19,6 @@
 - Legal 
 	- Drafting of legal documents
 	- Explaining of complex legal documents in plain english (but technically not a lawyer)
+- Marketing
+	- SEO article generation (I HATE THIS!!!)
+	- Iterating and experimentation in ad copies
