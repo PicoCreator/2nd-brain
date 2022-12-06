@@ -27,3 +27,7 @@
 - Lifestyle stuff, in a more iterative / conversation manner
 	- Calendar planning
 	- Route planning
+- Education (it needs to learn how to say I dun know)
+	- Active learning in a conversation style is proven to help - BUT chatGPT willingness to come up with things is a huge problem in this use case
+- Entertainment
+	- Automated commentry for live / sporting event (using the datafeed of actions, control the camera, and do comentary)
