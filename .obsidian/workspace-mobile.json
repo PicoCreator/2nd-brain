@@ -11,12 +11,8 @@
             "id": "7c5cc3607c507e57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,15 +107,13 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md"
-          }
+          "state": {}
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "7c5cc3607c507e57",
+  "active": "3259d6a09ab6799e",
   "lastOpenFiles": [
     "A - TechTalkCTO/P - Introducing Series/Intoducing Factory Building Games - Notes.md",
     "A - TechTalkCTO/P - Introducing Series/Introducing Factory Building Games - and how it makes you a better programmer.md",
