@@ -8,13 +8,13 @@ The article is now published at: https://substack.tech-talk-cto.com/p/vc-and-fou
 
 Lets ignore the public hype that is chatGPT for a moment, its ethics or its implications to society, and lets focus on the implications on building an AI based on its research and the tech, for your startup or your portfolio.
 
-TLDR: Dataset is no longer a hard requirment
+TLDR 1: Dataset is no longer a hard requirment
 
 >**_The idea that you need tons of data to make text based AI useful is now partially outdated_**
 >
 >**_Even an extreamly small dataset can produce valuable results (1 sentence ~ 1GB) Something which nearly all startups are either sitting on, or is able to produce by hand_**
 
-TLDR: It has very broad use cases
+TLDR 2: It has very broad use cases
 
 > **_You can think of GPT 3.5 as a remote & paid “college intern on demand”_**
 > 
@@ -22,7 +22,7 @@ TLDR: It has very broad use cases
 > 
 >  Value which can now grow and scale seamlessly (unlike real human interns)
 
-TLDR: Cost and Limitations 
+TLDR 3: Cost and Limitations 
 
 > **_Classic unit economics model for SaaS and online services will be a challenge_**
 > **_due to the extremely high running cost of most LLM_**
@@ -32,7 +32,7 @@ TLDR: Cost and Limitations
 If you were on holiday, and have no idea what are ChatGPT or LLM (large language models) - you can find the briefing about the technology here : https://substack.tech-talk-cto.com/p/introducing-ai-chatgpt-and-how-it
 
 So what do I mean in longer form? 
-And what research and citations do I have to back up my statements?
+Grab a cup of coffee and settle in for a bit…
 
 ---
 
@@ -124,7 +124,12 @@ In many ways data is no longer king, integration and finding useful application 
 ![Example of our new AI assistant converting a prompt to search a cooking recipe](./tami-prompt-c.png)
 ![Fully usable test script, from a single prompt](./tami-output.png)
 
-> Screenshot is a demo of our AI in action, generating full UI testing scripts, from a prompt, do reach out to us if you are interested in the future of AI and UI testing.
+> Screenshot is a demo of our AI in action, generating full UI testing scripts, from a prompt, as an example integration.
+>
+> Something which is now doable in a week, with the right team, and the right data.
+>
+> Do reach out to us if you are interested in the future of AI and UI testing.
+
 
 ---
 
@@ -236,7 +241,7 @@ In the AI / ML industry, the ability for a LLM to quickly learn new concepts and
 
 Generally the better the AI does in these test, the less data you need to train it for your use case.
 
-> In my opinion: This make sense in hindsight - who would have thought then a Neural Network modeled after humans, would act like humans. And benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
+> In my opinion: This make sense in hindsight - who would have thought that a Neural Network modeled after humans, would act like humans. And benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
 
 swyx also does an excellent job in trying to consolidate various information, in this rapidly chaotic and growing space
 - The Day The AGI Was Born: https://lspace.swyx.io/p/everything-we-know-about-chatgpt

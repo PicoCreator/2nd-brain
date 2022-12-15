@@ -31,7 +31,7 @@ Can be used to generate the following image
 
 Or write business plans for a website
 
-![[chat-gpt-turbo-tax.jpg]]
+![ChatGPT coming up with a buisness plan](./chat-gpt-turbo-tax.jpg)
 
 Or even be used to help [generate entire novels](https://andrewmayneblog.wordpress.com/2022/11/30/collaborative-creative-writing-with-openais-chatgpt/)
 
