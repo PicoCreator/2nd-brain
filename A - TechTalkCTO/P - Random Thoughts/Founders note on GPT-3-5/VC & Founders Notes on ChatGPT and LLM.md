@@ -236,7 +236,7 @@ In the AI / ML industry, the ability for a LLM to quickly learn new concepts and
 
 Generally the better the AI does in these test, the less data you need to train it for your use case.
 
-> In my oppinion: This make sense in hindsight - who would have thought then a Neural Network modeled after humans, would like humans benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
+> In my opinion: This make sense in hindsight - who would have thought then a Neural Network modeled after humans, would act like humans. And benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
 
 swyx also does an excellent job in trying to consolidate various information, in this rapidly chaotic and growing space
 - The Day The AGI Was Born: https://lspace.swyx.io/p/everything-we-know-about-chatgpt
@@ -245,7 +245,7 @@ swyx also does an excellent job in trying to consolidate various information, in
 
 Currently BLOOM is the main opensource contender for GPT3 (not 3.5): https://towardsdatascience.com/run-bloom-the-largest-open-access-ai-model-on-your-desktop-computer-f48e1e2a9a32
 
-## Sources and citations
+## Other sources and citations
 
 - GPT-3 45TB training set: https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai/
 - GPT-3 estimated $4 million++ plus training cost: https://lambdalabs.com/blog/demystifying-gpt-3
@@ -258,6 +258,7 @@ Currently BLOOM is the main opensource contender for GPT3 (not 3.5): https://tow
 	- https://arxiv.org/abs/2005.14165 (few shot)
 - Call center salary rates in US : https://www.comparably.com/salaries/salaries-for-call-center-agent
 - Average email sent by an office worker a day: https://www.templafy.com/blog/how-many-emails-are-sent-every-day-top-email-statistics-your-business-needs-to-know/
+- List of awesome chatGPT prompts : https://github.com/f/awesome-chatgpt-prompts
 - Unsplash photo links
 	- https://unsplash.com/photos/7swaW1bYpWI
 	- https://unsplash.com/photos/1iVKwElWrPA
