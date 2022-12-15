@@ -1,3 +1,5 @@
+The article is now published at: https://substack.tech-talk-cto.com/p/vc-and-founders-note-chatgpt-llm
+
 > Alternative title - VC & Founders Note : ChatGPT / LLM , and why its a major change moving forward
 > 
 > A summary, with extended materials. On our key insights and learning points in implementing our own UI test automation AI with GPT-3.5 - this is intentionally written for non technical folks ( ie. CEO's, VC partners, Analysts )
@@ -8,7 +10,7 @@ Lets ignore the public hype that is chatGPT for a moment, its ethics or its impl
 
 TLDR: Dataset is no longer a hard requirment
 
->**_The idea that you need tons of data to make text based AI useful  is now partially outdated_**
+>**_The idea that you need tons of data to make text based AI useful is now partially outdated_**
 >
 >**_Even an extreamly small dataset can produce valuable results (1 sentence ~ 1GB) Something which nearly all startups are either sitting on, or is able to produce by hand_**
 
@@ -18,18 +20,14 @@ TLDR: It has very broad use cases
 > 
 > **_You can never trust interns to be 100% right, but they can provide useful value with  proper supervision, guidance and planning
 > 
-  Value which can now grow and scale seamlessly (unlike real human interns)
+>  Value which can now grow and scale seamlessly (unlike real human interns)
 
 TLDR: Cost and Limitations 
 
 > **_Classic unit economics model for SaaS and online services will be a challenge_**
-> - It can cost anywhere from $0.01 to $0.50 for a single complex request
-> - This can be cheaper then a help desk employee on a per answer basis
-> - But is easily a million times more expensive then a typical website API call
+> **_due to the extremely high running cost of most LLM_**
 > 
 > **_OpenAI also has a (temporary) effective monopoly, for the infrastructure in this space, and can be both a partner and potential unintentional future competitor at the same time._**
-> 
-> **_As such, any startup using this technology, will need other defensible advantages_**
 
 If you were on holiday, and have no idea what are ChatGPT or LLM (large language models) - you can find the briefing about the technology here : https://substack.tech-talk-cto.com/p/introducing-ai-chatgpt-and-how-it
 
@@ -38,250 +36,230 @@ And what research and citations do I have to back up my statements?
 
 ---
 
-## Part 1: Data is no longer a hard requirement
+## Part 1: Data is no Longer a Hard Requirement
 
-### Crash course on traditional text based AI data requirements ...
+### Crash Course On Traditional Text-Based AI Data Requirements
 
-> Note that this article is talking only about text based models, and does not apply to image models in many cases (ie. computer vision)
+> Note: This article is discussing only text-based models and does not apply to image models in many cases (e.g., computer vision).
+ 
+In the past, building an AI model typically involved gathering a large enough dataset for a specific use case. Different AI model training techniques and tools existed to optimize the training process or its computational costs. However, the size and quality of the dataset was still one of the predominant factors in training an AI.
 
-Traditionally, the development of an AI model, typically involves building up a large enough dataset to build a dedicated AI model for a specific use case.
+This would result in a graph something like the following:
 
-While different AI model training techniques and tools exists, to optimize the training processes or its computational costs, for various specific use cases. The size and quality of the dataset was still one of the predorminant factor in training an AI.
+![Graph showing the practical usefulness of AI, starting at negative, before growing slowly and exponentially at approximately ~500GB in size where it past being "useful", before having a diminishing point of return after that](./traditional-ai-models.png)
 
-Resulting into a graph something like the following
-
-![Graph showing the practical usefulness of AI, starting at negative, before growing slowly and expotentially at approximately ~500GB in size where it past being "useful", before having a deminishing point of return after that](./traditiona-ai-models.png)
-
-> All numbers are large approximitions, and will change very drastically for different use cases, AI models, and data quality. Axis in the scales are intentionally made vague and inaccurate, because they are subjective, if you want technical numbers you can read the papers in the citations for specific use cases.
+> All numbers are large approximations and will change drastically depending on the use case, AI model, and data quality. The scales on the axes are intentionally vague and inaccurate because they are subjective. For technical numbers, read the papers in the citations for specific use cases.
 > 
-> The general idea remained however, where small scale dataset produces effectively random data, and only starts slowly becoming better, before finally being somewhat useful at approximately the ~500GB part
+> The general idea remains, however, where small-scale datasets produce effectively random data before slowly becoming better and finally being somewhat useful at approximately the ~500GB part.
 
-This lead to the dataset arms race, in nearly every field of specialization related to AI (esp. anything computer vision related) - which played out across multiple startups from 2009 onwards till today - With several notable startup even being acquired in part for their valuble dataset (and usually talent).
+This led to the dataset arms race, occurring in nearly every field of specialization related to AI (especially anything computer vision-related). Which played out across multiple startups from 2009 onwards until today, with a few notable startups being acquired in part for their valuable datasets (and usually talent).
 
-And because the arms race was constantly escalating, it slowly reached the point where "unless you have a deal with an external big data provider", it harder and harder for new startups to compete with their AI models (small dataset), against the incumbents (larger crowing dataset).
+Because the arms race was constantly escalating, it became increasingly difficult for new startups to compete with their AI models (small datasets) against incumbents (larger datasets). 
 
-> This was the case for us at uilicious.com (low-code UI test automation). Where we used our limited dataset, trained an AI model previously (called TAMI v0.1), and found that it was spewing garbage half the time.
+> For example, at uilicious.com (low-code UI test automation), we used our limited dataset to train an AI model (called TAMI v0.1). We found that it was spewing garbage half the time, leading us to set the model aside and grow the company without AI while building up our dataset.
+
+In a very overgeneralised and non-technical fashion, AI trained in this way will be referred to as "Specialized Models" from here onwards.
+
+### The Start of LLMs or Large Language Models
+
+In the quest for a truly universal or general-purpose AI, especially in the field of human speech interactions (as humans make for the most random of all variables), efforts arose to train a new type of text-based AI for extremely large datasets of public data (think Wikipedia, Quora, StackOverflow, and half of the internet text).
+
+Because these new models pushed the boundaries of dataset sizes and model size (think brain size), the methods used to build them diverged from specialized models (which tend to have more emphasis on accuracy and efficiency). 
+
+Text AI models trained in this way are now collectively called "Large Language Models" (LLMs).
+
+The downside of this approach was huge, preventing its early application in many use cases:
+- Extremely large datasets need to be built and maintained (GPT-3 used 45 TB)
+- Training costs millions of dollars (GPT-3 cost over $4M to train, GPT-3.5/chatGPT is presumably higher)
+- Limited use for specialized use cases due to the lack of private training data
+- Lower accuracy than specialized models in specialized use cases
+- Expensive to run (more on this in limitations later)
+
+> LLM was dominated by Google (who already had the data and had the motive to do so for their AI assistant) and OpenAI initially. Later, Microsoft, Amazon, Apple, Salesforce, Meta, and a few others joined the race. 
 > 
-> So in the end this model set on the shelf, while we grew the company without AI, and build up our dataset
+> However, due to the sheer size and cost to train such a model, it's generally reserved for major tech companies with deep pockets.
 
-In a very overgeneralised and very non-technical fashion, AI trained in this way, will be refered to as "Specialised Models" from here onwards.
+Though the first few generations of LLMs may have produced disappointing results, as they lost out to nearly every specialized model in every task, things changed as years passed and they scaled up in both dataset size and model size. 
 
-### The start of LLM or Large Language Models
+Their benefits became more visible:
+- Facts and accuracy aside, they became really good at talking to humans
+- In many (but not all) cases: they are really good at learning new specialized knowledge when given the datasets in an appropriate format (you can't just dump it in)
 
-However, in the quest for a truely universal or general purpose AI, especially in the fields of human speach interactions (as humans make for the most random of all variables). There was a push to train a new type of text based AI for extreamly large scale datasets of public data (think wikipedia, quora, stackoverflow, and maybe half of the internet text). 
+This made drastic changes to the curves:
 
-Because these new models, were pushing of both the boundaries of dataset sizes, and model size (think brain size), the approach and methods used to build them started to diverge from specialised models (which tend to have more emphasis on accuracy and efficency)
+![Graph showing how AI models trained on top of LLM models, can rapidly gain useful level of efficiency, with very small datasets, growing very rapidly, before hitting a diminishing point of return quickly](./gpt-2-level.png)
 
-AI models, trained in this way, are now collectively called "Large Language Models"
+It also sparked a new wave of AI-backed business models in 2019. Startups could now train new AI models on top of existing LLMs with datasets within their reach, from chatbots to presentation slide generators, code copilots, copywriting and even D&D gamemasters. 
 
-There was however, very huge downsides of taking this approach, some of which held back its application in many use cases
-- Extreamly large datasets needed to be built, and maintained (GPT-3, used 45 TB)
-- Training cost in millions of dollars (GPT-3 cost over $4M to train, GPT-3.5/chatGPT is presumingly higher)
-- Limited use for specialised use cases, due to the lack of private training data
-- Lower accuracy then specialised model, in specialised use case
-- Is really expensive to run (more on this in limitations later)
+No longer was these AI models in the exclusive domain of large tech companies. For a small fee for training and running the AI on their infrastructure, OpenAI and Google started opening up their models for others to build upon as a means to profit from the LLMs.
 
-> LLM was mostly dominately by Google (who already had the data, and had the motive to do so for their AI assistant) and OpenAI initially. Microsoft, Amazon, Apple, Salesforce, Meta, and a few others would join the race later. 
-> 
-> However due to the sheer size and cost to train such a model. It's generally reserved to major tech companies with deep pockets.
+This was beneficial to startups, too, as they no longer needed millions of dollars in R&D investment required to build these large models internally, allowing them to reach the market faster with their proof-of-concepts.
 
-While the first few generation LLM may have gave disappointing results, as it lost out to nearly every specialised model in every task.
+Data was still, in a way, king. It may have moved the curve to be more accessible, but it still required a team to build up large datasets and tune the model. As a result, while many of the 2019 startups found it significantly easier to build their prototypes, many found it difficult to cross the "useful" threshold, as they needed to scale up their dataset with diminishing returns.
 
-As the years passed, and they started scaling up in both dataset size, and modal size, its benefits started being more visible
-- Facts and accuracy aside, it started being really good at talking to humans
-- In many (but not all) cases : It is really good at learning new specialised knowledge when given the datasets in an appropriate format (you can't just dump it in)
+> This is consistent with early internal trials of uilicious.com TAMI AI models - basically it was between interesting and "meh".
 
-Which made drastic changes to the curves ....
+But that's when things start to really change in 2022....
 
-![Graph showing how AI models trained on top of LLM models, can rapidly gain useful level of efficency, with very small datasets, growing very rapidly, before hitting a diminishing point of return quickly](./gpt-2-level.png)
-
-And started a new wave of AI backed buisness model in 2019. Where new startups can train new AI models ontop of existing LLM models, with dataset sizes within their reach. 
-
-From chatbots, presentation slide generator, copilot, copywriting or even D&D games.
-
-No longer was it in the exclusive domain of large tech companies. For a small fee in training, and running the AI on their infrastructure, openAI and google started opening up their model for others to build upon, as a means to profit from the LLM.
-
-It was also benefical the the startups, because they no longer need the billions of dollars of R&D investment which was required to build these large models internally. Allowing to go to market faster with their proof of concepts.
-
-However in a way, data was still king. It may have moved the curve to be more accessible, but it still required a team to build up large datasets, and tune the model. 
-
-As a result, while many of the startups in 2019 found it significantly easier to build their prototype, many found it difficult to cross the "useful" threshold, as they need to scale up their dataset with dimnishing returns.
-
-> This is consistent with early internal trials of uilicious.com TAMI AI models - basically it was between interesting to "meh"
-
-But thats where things start to really change in 2022 ....
-
-### How large language models are few shot learners ...
+### How Large Language Models are Few-Shot Learners
 
 ![Chart showing the level of usefulness for for AI models trained on GPT 3.5](./tami-chart-positioning.png)
 
-With GPT3.5 (or chatGPT as the internet sees it) coming out in the past month (Dec 2022). One of the biggest implications was in the technical details on how the model was trained, and fine-tuned.
+The release of GPT3.5 (or chatGPT as it's known on the internet) last month (December 2022) had huge implications for the way AI models are trained and fine-tuned. 
 
-When combined with the new model, it literally unlocks the possibility of making usable AI with extreamly small datasets. One that most startups are already sitting on it, or is able to create by hand. In ways that fundementally change how we should think about AI training.
+It has unlocked the possibility of creating usable AI with extremely small datasets - something that most startups have access to or can create by hand. This is a fundamental shift in how we think about AI training.
 
-> For us it was a shocking moment at uilicious.com, because what we found was that using only a small "<1GB" dataset of our entire larger "~100GB" dataset. Converted and optimized with the new training techniques.
+> At uilicious.com, we were stunned when we discovered that a small sample dataset smaller than 1GB, of our larger ~100GB dataset. When converted and optimised with the new training techniques, had exceeded the "useful threshold" - the point at which the AI could be utilised by our users and outperform everything we had previously. 
 > 
-> We had already crossed the "useful threshold", where the AI can start being used by our users and was outperforming everything we had previously.
-> 
-> While further experiments in increasing our dataset, showed diminishing returns. The key take away was how small of a dataset was required, to "make a useful product".
-> 
-> It literally took us less time to build a proof-of-concept AI, finetuned using data for our priopriatry use case, then it took me to write this article.
+> Subsequent experiments with larger datasets showed diminishing returns. The key takeaway, was how little data was needed to "make a useful product". It took us less time to build a proof-of-concept AI, fine-tuned for our proprietary use case, than it took to write this article.
 
-And thats where it is a fundemental shift. You no longer need a specialised team, or even a specialised individual. It is very possible using GPT3.5 as a basic building block - to build up useful AI applications for various use cases.
+Using GPT3.5 as a basic building block, it is now possible to build useful AI applications for various use cases without needing a specialised team or individual. Depending on the use case, the dataset can be as small as a single sentence or paragraph, or up to 100MB or 1GB - a size that is achievable for many startups.
 
-For simple usecaes, the dataset can be as low as a single sentence or paragraph. For larger use cases it could be under 100MB or 1GB - a size that is very possible for a startup to handcraft and maintain.
+Alternatively, if you can get chatGPT to act in a way that you find useful and of value to your startup. You can build it as a dedicated AI service.
 
-Almost anything you can get chatGPT to do today, in some useful capacity, is something you can tune GPT3.5 for your use case with under a 100MB, and under a week.
+The drastic reduction in required dataset made it possible for us to build a "useful" AI model with only a small fraction of our full dataset - something that had previously been "useless" or "impossible" at our scale.
 
-Alternatively, if you can instruct chatGPT to act in a way that you find useful and of value, that maybe a potential startup idea to build around on its own.
-
-A drastic reduction in required dataset, that allowed us to build a "useful" AI model with only a small fraction of our full dataset of our previously "useless" AI.
+In many ways data is no longer king, integration and finding useful application is the true kingmakers with this new AI.
 
 ![Example of our new AI assistant converting a prompt to search a cooking recipe](./tami-prompt-c.png)
 ![Fully usable test script, from a single prompt](./tami-output.png)
 
-> Screenshot is a demo of our AI in action, generating full UI testing scripts, from a prompt
+> Screenshot is a demo of our AI in action, generating full UI testing scripts, from a prompt, do reach out to us if you are interested in the future of AI and UI testing.
 
 ---
 
-## Part 2: The hunt for use cases (and AI interns) has begun
+## Part 2: The Hunt for Use Cases (and AI Interns) Has Begun
 
-### Lets have a more realistic framing of use case ...
+### The intern framework for finding use cases
 
-One thing to get out of the way, GPT3.5, and all Large Language Model - do have limits on their accuracy and reliability. This is in part due to their nature of [dreaming out answers](https://substack.tech-talk-cto.com/p/introducing-ai-chatgpt-and-how-it).
+GPT-3.5 and all other large language models have limits on their accuracy and reliability. This is partly due to their nature of [dreaming out answers](https://substack.tech-talk-cto.com/p/introducing-ai-chatgpt-and-how-it). 
 
-In theory (yet to be proven) given a large enough specialised dataset, its accuracy can be drastically improved for specialised use cases. However, if you have such a large dataset, chances are you could already built "specialised models".
+While in theory (yet to be proven), given a large enough specialized dataset, its accuracy can be drastically improved for specialized use cases. However, if you have such a large dataset, chances are you could already build "specialized models".
 
-Ultimately though, this limit on accuracy and reliability, is only a critical issues in sensitvie industry (ie. medicine). And for most cases, is mearly a distraction in finding use cases.
+Ultimately still, this limit on accuracy and reliability is only a critical issue in sensitive industries (e.g. medicine). For most cases, it is merely a distraction in finding use cases. Once the AI crosses the “good enough” threshold.
 
-**A healthier, and more realistic approach to the problem. Is to imagine GPT 3.5 as a remote & paid “smart college intern on demand”.**
+**A healthier and more realistic approach to the problem is to imagine GPT-3.5 as a remote and paid “smart college intern on demand”.** 
 
-Because realistically, the AI has all the same limitations in such use cases, in addition to being remote and online
-- never trust interns to be 100% right all the time (let alone diagnose medicine)
-- create a workflow, that allow the intern to safely provide useful value, with the appropriate supervision, guidance and planning.
-- for 1 day or 1 month interns, you would create a formal training plan to quickly get them productive in 1 hour or 1 week of training, respectively.
-- you should be paying your interns, they are not free (both for humans and AI)
+Because realistically, the AI has all the same limitations in such use cases, in addition to being remote and online:
 
-The only real benefit the AI model has over real life interns
+- Never trust interns to be 100% right all the time (let alone diagnose medicine)
+- Create a workflow that allows the intern to safely provide useful value, with the appropriate supervision, guidance, and planning
+- For one-day or one-month interns, you would create a formal training plan to quickly get them productive in one hour or one week of training, respectively
+- You should be paying your interns; they are not free (both for humans and AI)
+
+The only real benefit the AI model has over real-life interns is:
+
 - They are not affected by school seasons
 - You can scale both up and down at any second
-- The training is something you can do once per batch, and scale up to as many instances
+- The training is something you can do once per batch and scale up to as many instances
 
-The downside the AI has over the humans
-- They cannot get you coffee in person
+The downside the AI has over the humans is that they cannot get you coffee in person.
 
-Once you frame it along these lines, it becomes significantly easier to figure out how to slow in the AI into existing buisness processes or products.
+Once you frame it in these terms, it becomes significantly easier to figure out how to integrate the AI into existing business processes or products. 
 
-Need to generate article ideas, get a one day intern.
-Need to convert some propietary java to javascript code, get a one month intern, with some basic training on how to do the process.
+Need to generate article ideas? Get a one-day intern. Need to convert some proprietary Java to JavaScript code? Get a one-month intern with some basic training on how to do the process. And so on and so forth - at no point in the process should the human be removed from the loop in supervising and iterating with the intern.
 
-So on and so forth. Where at no point of the process is the human removed from the loop in supervising and iterating with, the intern.
-
-> On a slightly more technical level
-> 
->- A one day intern, can be quickly be built using prompt engineering, anything you manage to get chatGPT to do fits into this category. The downside is, there is a practical limit ( about 2000 words ) of what you can fit into the training data. The plus side is you can experiment and set this up in seconds, and its very easy to setup or iterate with chatGPT.
->  
->- A one month intern (or anything in between), is where you start having a formal training dataset, which they can memorize and learn. They will be able to handle more situations according to the training materials. The downside is, you actually need to prepare that training materials: however combined with both techniques, it can get very far.
+> On a slightly more technical level:
+>
+>- A one-day intern can be quickly built using prompt engineering; anything you manage to get chatGPT to do fits into this category. The downside is there is a practical limit (about 2000 words) of what you can fit into the training data. The plus side is you can experiment and set this up in seconds, and it's very easy to setup or iterate with chatGPT.
+>
+>- A one-month intern (or anything in between) is where you start having a formal training dataset, which they can memorize and learn. They will be able to handle more situations according to the training materials. The downside is you actually need to prepare that training material; however, combined with both techniques, it can get very far.
 
 ---
 
-## Part 3: Cost and Buisness Limitations
+## Part 3: Cost and Business Limitations
 
-### Cost per prompt, will make and break the buisness model
+### Cost per Prompt Will Make or Break the Business Model
 
-This is the biggest Achilles' heel, or weakness for this newer approach in AI of bigger and better models as a baseline. Because there is no free lunch, while its cheaper and easier to train for specialized task (in terms of dataset size), it is significantly more expensive to run compared to more traditional AI models.
+This is the biggest weakness for this newer approach in AI, which is based on bigger and better models. Unfortunately, there is no free lunch. While it is cheaper and easier to train for specific tasks in terms of dataset size, it is significantly more expensive to run compared to more traditional AI models.
 
-It ain't cheap, the cost per prompt and answer range anywhere between 1 cent, to 50 cents. Depending on how much data was needed to train, or use in the process. 
+It is not cheap; the cost per prompt and answer range anywhere between one cent and fifty cents, depending on how much data was needed to train or use in the process. This is drastically higher than a typical API server, which can handle a million requests per dollar. 
 
-This is drastically higher then a typical API server, which can handle a million request, per dollar.
+To put it in simpler terms, it costs more in server hardware to handle one AI query for one user within a given second than it does to serve a million user requests for a typical medium-sized Shopify website. This is not due to OpenAI or Azure soley trying to make a profit; it is down to the pure server hardware infrastructure required to run such large models.
 
-To peraphrase it in a less technical way, within a frame of one second, it cost more in server hardware to handle one AI query for one user, then it is to serve a million user request for a typical medium sized shopify website.
+As a result, as powerful as it is, incorporating such Large Language Model AI has a hefty price tag and may not be applicable for all use cases due to this limitation alone. 
 
-And this is not due to OpenAI, or azure only trying to make a profit. Its down to pure server hardware infrastructure required to run such large models.
-
-As a result, as powerful as it is, incoporating such Large Language Model AI, has a hefty price tag. And may not be applicable for all use cases due to this limitation alone.
-
-The end result is, while many use cases can benefit the use of such an AI, not all use cases can afford it. And that should be an important consideration for any implmentation.
+The end result is that, while many use cases can benefit from the use of such an AI, not all use cases can afford it; and this should be an important consideration for any implementation.
 
 #### Example A: Support Service Chat
-For a support service desk. A typical support staff, can handle 10 customer per hour, with each customer having an average of 15 back and forth prompts. If its 5 cent per prompt - this adds up to $7.50 an hour, if an AI was used to mimic a single support staff.
+For a support service desk, a typical support staff can handle ten customers per hour, with each customer having an average of fifteen back-and-forth prompts. If it is five cents per prompt - this adds up to $7.50 s an hour if an AI was used to mimic a single support staff. 
 
-This is not only cheaper then the typical US call center staff median salary of $15/hour, it is also much more flexible (no staffing overhead, can scale up and down instantly)
+This is not only cheaper than the typical US call center staff median salary of $15 per hour, it is also much more flexible (no staffing overhead, can scale up and down instantly). 
 
-Likewise it is also possible to take the same "intern" approach where these support AI serves only as L1 support, allowing the humans to handle the more complicated cases.
+Likewise, it is also possible to take the same "intern" approach, where these support AI serve only as L1 support, allowing the humans to handle the more complicated cases. In this scenario, it makes sense when done and scaled appropriately on a per-prompt (or per-hour) basis.
 
-In this scenerio, it makes sense when done and scaled appropriately on a per prompt (or per hour basis)
+#### Example B: A SaaS Service to Draft Emails
 
-#### Example B: A SaaS service to draft emails
-The average office worker replies to approximately 40 emails per work day, or approximately 880 emails per month.
+The average office worker replies to approximately forty emails per work day, or approximately 880 emails per month. Even at five cents per email, that would be $44 per month on average per user just to handle the email replies. 
 
-Even at 5 cent per email, that would be $44/month on average, per user, just to handle the email replies. What makes it worse, is that its resonable to expect that with such a service, an office worker would be able to reply more emails on average.
+What makes it worse is that it's reasonable to expect that, with such a service, an office worker would be able to reply to more emails on average. It would not be unreasonable for the average to double to two thousand emails, or one hundred dollars a month, in pure AI costs alone. In this case, if the SaaS startup were to do a simple, let's say ten-dollar-per-month pricing, they can get into heavy potential losses over time. 
 
-It would not be unresonable for the average is doubled to 2000 email, or $100 a month, in pure AI costs alone.
+This pricing cost and business model runs counter to the typical, per-user pricing model that is common in SaaS. Which is why it is common for such integrations to have a "credits" system as a means to cap the usage, and a means of billing, of such an AI.
 
-In this case, if the SaaS startup were to do a simple, lets say $10/month pricing - they can get into heavy potential losses over time.
-
-It is for this reason, that the majority of the AI startups built on the newer model, tend to have some form of monthly point/credit system, as a means to limit each user, or bill them for excessive usage.
-
-This pricing cost, and business model, runs counter to the typical, per user pricing model that is common in SaaS.
-
-> It is expected that overtime, with better fine tuning and cost optimization, the price per prompt can go down. 
+> It is expected that overtime, with better fine-tuning, competition, and cost optimization, the price per prompt can go down. Another notable method is to use the original more expensive AI first at launch, while collecting more data, which is then used to train a more specialized and cheaper model. However, all of these methods go into deep technical details, which may be unique for each use case, and generally require significant time and effort. 
 > 
-> Another notable method, is to use the original more expensive AI first at launch, while collecting more data - which is then used to train a more specialised and cheaper model.
-> 
-> However all of these methods, go into deep technical details, which maybe unique for each use case, and generally require significant time and effort. And even then, while it can be a drastic 10x in savings - it is fundementally more expensive then traditional SaaS API services.
+> And even then, while it can be a drastic ten times in savings, it is fundamentally more expensive than traditional SaaS API services.
 
-### OpenAI has an effective monopoly (for now)
+### OpenAI Has an Effective Monopoly (For Now)
 
-#### Prices may be stuck, till competition arrives
+#### Prices May Be Stuck Until Competition Arrives
 
-While there are existing opensource Large Language Model, in very frank terms, they are either comparable to GPT2, or somewhere inbetween that and GPT3.5.
+While there are existing open-source Large Language Models, in very frank terms, they are either comparable to GPT2 or somewhere in between that and GPT3.5. 
 
-For some use cases, they may find that once they start building up a reasonable dataset, these smaller (and cheaper) models, will be useful to migrate into as a means of cost cutting.
+For some simple cases, once they start building up a reasonable dataset, these smaller (and cheaper) models may be useful to migrate into as a means of cost cutting. 
 
-However for some use cases, such a move may not be possible, due to the complexity of their AI - giving openAI an effective monopoly, with no insentive for lower pricing.
+However, for other complex cases, such a move may not be possible due to the complexity of their AI, giving OpenAI an effective monopoly with no incentive for lower pricing. 
 
-However it is believed that over the cost of the next 1 or 2 year, the opensource community would catch up. And in doing so, perhaps allow prices to improve, due to better alternative of infrastructure providers.
+It is believed, however, that over the course of the next one or two years, the open-source community will catch up and, in doing so, perhaps allow prices to improve due to better alternative infrastructure providers. However, because this is an uncertain future, it is worth highlighting.
 
-However because this is an uncertain future, it is worth highlighting
+#### OpenAI Is a Potential Unwilling Competitor for Some Models
 
-#### OpenAI is a potential unwilling competitor for some models
+While not intentionally, it is critical that startups within this space build feature sets that are defensible beyond their prompt-to-text bots. 
 
-While not intentionally, it is critical that startups within this space, build feature sets that is defensible, beyond their prompt to text bots.
+For example, there were several smaller startups who built GPT3-based bots or SaaS around specific prompt-to-text use cases, like name generators or idea generators with a simple interface. 
 
-For example, there were several smaller startups who built GPT3 based bots or SaaS, around specific prompt to text use cases. Like name generators, or idea generators, with a simple interface.
+Literally overnight, with the launch of chatGPT, these small single-use-case text-to-text SaaS were made redundant, as everyday folks can now get the same functionality via chatGPT for free. While it may not have been OpenAI's intention to compete with the very partners that build on them, it may be its inevitable nature to do so, as they keep improving their model and chatGPT. As such, to ensure this does not repeat itself, it is critical for any business model around this technology to figure out what additional value they provide beyond just prompt-to-text, perhaps better user experience or integrations with existing toolings, etc.
 
-Literally overnight, with the launch of chatGPT, these small single usecase text to text SaaS. Were made redundant, as everyday folks can now get the same functionality via chatGPT for free.
+### Lastly: It Ain't Perfect
 
-While it may not have been openAI intention, to compete with the very partners that build on them. It may be its inevitable nature to do so, as they keep improving their model and chatGPT.
-
-As such to ensure this does not repeat itself, it is critical for any buisness model around this technology, to figure out what additional value do they provide beyond just prompt to text.
-
-Perhaps its better user experience, or integrations with existing toolings, etc.
-
-### Lastly: It ain't perfect
-Reminder of the intern model - do not expect to use this for curing cancer tomorrow. 
-So please do not go stuffing AI into every product and startup on earth, when it makes no benefit to the end user to do so.
+Reminder of the intern model - do not expect to use this for curing cancer tomorrow. So please do not go stuffing AI into every product and startup on Earth when it makes no benefit to the end user to do so.
 
 ----
 
 ~ Until next time 🖖  live long and prosper
 
+---
 
+## Notes that didn't fit in
 
+In the AI / ML industry, the ability for a LLM to quickly learn new concepts and apply them is quantified and measured by tests called "Zero-Shot", "One-Shot" and "Few-Shot" learnings.
 
+Generally the better the AI does in these test, the less data you need to train it for your use case.
 
+> In my oppinion: This make sense in hindsight - who would have thought then a Neural Network modeled after humans, would like humans benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
 
+swyx also does an excellent job in trying to consolidate various information, in this rapidly chaotic and growing space
+- The Day The AGI Was Born: https://lspace.swyx.io/p/everything-we-know-about-chatgpt
+- How Open Source is eating AI: https://lspace.swyx.io/p/open-source-ai
+- His live AI notes: https://github.com/sw-yx/ai-notes/blob/main/TEXT.md#chatgpt
 
+Currently BLOOM is the main opensource contender for GPT3 (not 3.5): https://towardsdatascience.com/run-bloom-the-largest-open-access-ai-model-on-your-desktop-computer-f48e1e2a9a32
 
+## Sources and citations
 
-
-
-
-
-
-
-
-
-
-
+- GPT-3 45TB training set: https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai/
+- GPT-3 estimated $4 million++ plus training cost: https://lambdalabs.com/blog/demystifying-gpt-3
+- Bloom AI, an opensource competitor $1.6 million training cost: https://techcrunch.com/2022/07/12/a-year-in-the-making-bigsciences-ai-language-model-is-finally-available/
+- T-Shaped model of education and work 
+	- https://wordspy.com/index.php?word=t-shaped
+	- https://collegeinfogeek.com/become-t-shaped-person/
+- Large language models papers, for zero and few shot learnings
+	- https://arxiv.org/abs/2205.11916 (zero shot)
+	- https://arxiv.org/abs/2005.14165 (few shot)
+- Call center salary rates in US : https://www.comparably.com/salaries/salaries-for-call-center-agent
+- Average email sent by an office worker a day: https://www.templafy.com/blog/how-many-emails-are-sent-every-day-top-email-statistics-your-business-needs-to-know/
+- Unsplash photo links
+	- https://unsplash.com/photos/7swaW1bYpWI
+	- https://unsplash.com/photos/1iVKwElWrPA
+	- https://unsplash.com/photos/SELXIJwN24s
+	- https://unsplash.com/photos/3xwrg7Vv6Ts

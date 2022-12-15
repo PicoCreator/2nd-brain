@@ -31,17 +31,20 @@ While further experiments in increasing our dataset, showed diminishing returns.
 
 It literally took us less time to build a proof-of-concept AI using data for our priopriatry use case, then it took me to write this article.
 
+---
+
 ## Notes that didn't fit in
 
 In the AI / ML industry, the ability for a LLM to quickly learn new concepts and apply them is quantified and measured by tests called "Zero-Shot", "One-Shot" and "Few-Shot" learnings.
 
-In the AI / ML industry, the ability for a text based model, to quickly learn a new concept, is benchmarked using, zero-shot, one-shot, and few-shot training. These are formal technical terms to describe an AI ability to learn quickly with really small datasets, that can be benchmarked against one another.
-
 Generally the better the AI does in these test, the less data you need to train it for your use case.
 
-In my oppinion: This make sense in hindsight - who would have thought then a Neural Network modeled after humans, would like humans benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
+> In my oppinion: This make sense in hindsight - who would have thought then a Neural Network modeled after humans, would like humans benefit from the T-Shape education model. Where a large breadth of generalised knowledge, help improve ones ability to learn specialised knowledge in one are of expertise. (this statement is not backed by any data)
 
-
+swyx also does an excellent job in trying to consolidate various information, in this rapidly chaotic and growing space
+- The Day The AGI Was Born: https://lspace.swyx.io/p/everything-we-know-about-chatgpt
+- How Open Source is eating AI: https://lspace.swyx.io/p/open-source-ai
+- His live AI notes: https://github.com/sw-yx/ai-notes/blob/main/TEXT.md#chatgpt
 
 ## Sources and citations
 
