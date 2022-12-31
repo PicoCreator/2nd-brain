@@ -15,6 +15,7 @@ the following are current writting drafts, as a i prepare to jump start the seri
     - Get images from
         - https://unsplash.com/
         - StableDiffusion
+	- Ensure credits at the end 
 
 2) Publishing
     - https://substack.tech-talk-cto.com/
