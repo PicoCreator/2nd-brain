@@ -11,11 +11,52 @@
             "id": "efad87bcfd64cc56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "A - AI notes/README.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16cb5b670f92050b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3ceea8b180f2029",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Rewrite-v2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff30401e2cddb330",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Rewrite-v2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 219.5
   },
   "right": {
     "id": "c600ea178e0fe897",
@@ -81,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Rewrite-v2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Rewrite-v2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Rewrite-v2.md"
+              }
             }
           },
           {
@@ -136,17 +181,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b9652d8374537b38",
+  "active": "f3ceea8b180f2029",
   "lastOpenFiles": [
+    "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Rewrite-v2.md",
+    "A - TechTalkCTO/P - Questions From Devs to CTO/How to be a 10x developer/Draft-v1.md",
+    "A - TechTalkCTO/P - Questions From Devs to CTO/README.md",
+    "A - TechTalkCTO/P - Questions From Devs to CTO/What core tech skills/Aspiring dev to CTO - What is the core non-tech skills needed for a programmer?.md",
+    "A - AI notes/OpenAI playground - as chatGPT substitute.md",
     "A - AI notes/README.md.md",
+    "2022-12-27.md",
     "A - TechTalkCTO/P - Random Thoughts/Founders note on GPT-3-5/VC & Founders Notes on ChatGPT and LLM.md",
     "A - TechTalkCTO/P - Random Thoughts/Founders note on GPT-3-5/random-notes.md",
-    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md",
-    "Untitled.md",
-    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/twitter screenshots.md",
-    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/High level draft of the article.md",
-    "A - List of various things/P - List of potential ChatGPT use cases/Potential ChatGPT use cases.md",
-    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/tweet-ai-bullshit.png",
-    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/tweet-citation/room-1.jpeg"
+    "A - TechTalkCTO/P - Introducing Series/AI in Q42022/Introducing AI, and how it dreams in 2022.md"
   ]
 }
