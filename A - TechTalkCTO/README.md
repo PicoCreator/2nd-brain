@@ -23,7 +23,7 @@ the following are current writting drafts, as a i prepare to jump start the seri
     - https://dev.to/picocreator
     - https://hashnode.tech-talk-cto.com/
 
-Substack is currently my primray channel - though i may move to hashnode in the future, as its less agressive with the signup popup.
+Substack is currently my primay channel - though i may move to hashnode in the future, as its less agressive with the signup popup.
 
 3) Broadcast
     - https://twitter.com/picocreator

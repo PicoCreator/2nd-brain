@@ -27,7 +27,7 @@ An example would be how a single prompt like
 
 Can be used to generate the following image
 
-![Example of a living room, generated with the previous prompt with both chatGPT and midjourney combined](./tweet-citation/ai-art-gen-rooms.jpg)
+![Example of a living room, generated with the previous prompt with both chatGPT and midjourney combined](ai-art-gen-rooms.jpg)
 
 Or write business plans for a website
 
@@ -43,11 +43,11 @@ Yes, but that includes dreaming up lies.
 
 In an extremely convincing fashion that even experts can find it hard to tell the difference.
 
-![ChatGPT is a master in bluffing](./tweet-citation/tweet-ai-bullshit.png)
+![ChatGPT is a master in bluffing](tweet-ai-bullshit.png)
 
 It can also be very stubborn in how it present itself, so as hard as i tried to get it to help me write this article, unfortunately it just couldn't be "me".
 
-![Chat GPT is a tool, not a solution](./tweet-citation/tweet-is-it-useful.png)
+![Chat GPT is a tool, not a solution](tweet-is-it-useful.png)
 
 In a weird way, you should view these AI as unique assistant who ...
 - is a naive smart kid

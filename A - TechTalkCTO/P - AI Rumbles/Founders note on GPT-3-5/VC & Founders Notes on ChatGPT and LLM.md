@@ -46,7 +46,7 @@ In the past, building an AI model typically involved gathering a large enough da
 
 This would result in a graph something like the following:
 
-![Graph showing the practical usefulness of AI, starting at negative, before growing slowly and exponentially at approximately ~500GB in size where it past being "useful", before having a diminishing point of return after that](./traditional-ai-models.png)
+![Graph showing the practical usefulness of AI, starting at negative, before growing slowly and exponentially at approximately ~500GB in size where it past being "useful", before having a diminishing point of return after that](traditional-ai-models.png)
 
 > All numbers are large approximations and will change drastically depending on the use case, AI model, and data quality. The scales on the axes are intentionally vague and inaccurate because they are subjective. For technical numbers, read the papers in the citations for specific use cases.
 > 
@@ -87,7 +87,7 @@ Their benefits became more visible:
 
 This made drastic changes to the curves:
 
-![Graph showing how AI models trained on top of LLM models, can rapidly gain useful level of efficiency, with very small datasets, growing very rapidly, before hitting a diminishing point of return quickly](./gpt-2-level.png)
+![Graph showing how AI models trained on top of LLM models, can rapidly gain useful level of efficiency, with very small datasets, growing very rapidly, before hitting a diminishing point of return quickly](gpt-2-level.png)
 
 It also sparked a new wave of AI-backed business models in 2019. Startups could now train new AI models on top of existing LLMs with datasets within their reach, from chatbots to presentation slide generators, code copilots, copywriting and even D&D gamemasters. 
 
@@ -103,7 +103,7 @@ But that's when things start to really change in 2022....
 
 ### How Large Language Models are Few-Shot Learners
 
-![Chart showing the level of usefulness for for AI models trained on GPT 3.5](./tami-chart-positioning.png)
+![Chart showing the level of usefulness for for AI models trained on GPT 3.5](tami-chart-positioning.png)
 
 The release of GPT3.5 (or chatGPT as it's known on the internet) last month (December 2022) had huge implications for the way AI models are trained and fine-tuned. 
 
@@ -121,8 +121,8 @@ The drastic reduction in required dataset made it possible for us to build a "us
 
 In many ways data is no longer king, integration and finding useful application is the true kingmakers with this new AI.
 
-![Example of our new AI assistant converting a prompt to search a cooking recipe](./tami-prompt-c.png)
-![Fully usable test script, from a single prompt](./tami-output.png)
+![Example of our new AI assistant converting a prompt to search a cooking recipe](tami-prompt-c.png)
+![Fully usable test script, from a single prompt](tami-output.png)
 
 > Screenshot is a demo of our AI in action, generating full UI testing scripts, from a prompt, as an example integration.
 >

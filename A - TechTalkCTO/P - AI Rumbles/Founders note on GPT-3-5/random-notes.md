@@ -19,7 +19,7 @@ We decided to take the approach of building the company at the start, to best su
 
 All while constantly doing small experiments, and waiting for the day our dataset and AI crossed the "useful" threshold. (GPT 2 for example, was interesting, but found to be barely useful with our dataset)
 
-![Chart showing the level of usefulness for our AI model](./tami-chart-positioning.png)
+![Chart showing the level of usefulness for our AI model](tami-chart-positioning.png)
 
 But then came GPT3.5, or chatGPT as the internet sees it now in the past month (Dec 2022). With the biggest implications being in the technical details on how the model was trained, and fine-tuned.
 
