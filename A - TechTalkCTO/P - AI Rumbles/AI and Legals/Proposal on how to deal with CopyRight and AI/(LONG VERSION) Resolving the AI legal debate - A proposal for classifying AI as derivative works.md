@@ -223,7 +223,10 @@ For example
 
 The end result, is despite starting out in a way that "does not create a competing product", ends up with a tool, [being used in commercial settings to replace artist, who had their images contributed to the dataset.](https://edition.cnn.com/2022/10/21/tech/artists-ai-images/index.html)
 
+## Step 2 - for a legal AI: Building the AI model
 
+// @TODO
 
+## Step 3 - for a legal AI: Using the AI model
 
-
+// @TODO
