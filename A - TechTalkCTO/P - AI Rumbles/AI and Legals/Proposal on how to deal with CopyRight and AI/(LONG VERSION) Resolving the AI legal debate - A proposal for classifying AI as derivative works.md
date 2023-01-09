@@ -208,20 +208,19 @@ Because fairuse is complicated on a country to country basis, talk to a lawyer.
 
 ---
 
-### Note 3: Limitations NEEDS to be carried forward
+### Important Note: Limitations MUST be Carried Forward 
 
-Permissive licenses are typically written in a way, which enforces derivative works, and any collections including their work, or its distribution. To have the same limitation (Attribution, Non Commerical requirements).
+Permissive licenses are typically written in a way that enforces derivative works, and any collections including their work, or its distribution, to have the same limitation (attribution, non-commercial requirements). 
 
-As such measures are required to ensure the same limitations applied to the dataset, the AI model, and their generated content*.
+Measures must be taken to ensure the same limitations apply to the dataset, AI model, and their generated content*. Failure to do so would break the current proposal, due to potential loopholes that may allow commercial companies to fund the creation of public datasets under "fair use" only to eventually use them commercially. 
 
-Failure to do so, would break the current proposal, due to potential loopholes involved in Commercial companies, funding the creation of public dataset. Which is the case for stable diffusion as of now. In which public research may end up being used to "wash" copyright via "fairuse" for private commercial AI products.
+For example: 
 
-For example
-- [LAION.AI](https://laion.ai/) - was comissioned to build and opensource "Non Commercial" dataset
-- [Stability.ai](https://stability.ai/) - built an AI model, based on LAION.AI dataset, without the "Non Commercial" restriction, and released it to the public
-- Dreambooth.ai, and countless of other commercial AI art generators - used the model to build their paid commercial AI art generator.
+- [LAION.AI](https://laion.ai/) - was commissioned to build and open-source a "Non-Commercial" dataset
+- [Stability.ai](https://stability.ai/) - built an AI model, based on the LAION.AI dataset, without the "Non-Commercial" restriction, and released it to the public
+- Dreambooth.ai, and countless other commercial AI art generators - used the model to build their paid commercial AI art generator. 
 
-The end result, is despite starting out in a way that "does not create a competing product", ends up with a tool, [being used in commercial settings to replace artist, who had their images contributed to the dataset.](https://edition.cnn.com/2022/10/21/tech/artists-ai-images/index.html)
+The end result is, despite starting out in a way that "does not create a competing product," due to its open-source nature, it ends up as a tool [that can be used in commercial settings to replace specific living artists identified by their name, who had their images scraped within the dataset without consent](https://edition.cnn.com/2022/10/21/tech/artists-ai-images/index.html).
 
 ## Step 2 - for a legal AI: Building the AI model
 

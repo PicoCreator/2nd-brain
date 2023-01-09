@@ -7,6 +7,9 @@ new substack / blog series
 
 the following are current writting drafts, as a i prepare to jump start the series on substack, so spoilers i guess
 
+All drafts here are badly organized in various stages. Its typically better to just read it from my substack
+- https://substack.tech-talk-cto.com/
+
 # Article writing pipeline process
 
 1) Drafting
