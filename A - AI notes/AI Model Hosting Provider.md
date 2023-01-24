@@ -1,0 +1,2 @@
+- https://nlpcloud.com/#plans
+- https://www.forefront.ai/pricing

@@ -1,4 +1,5 @@
 This is mostly useful when chatGPT is down/overloaded. It is however a paid API (so YMMV)
+In general you want  to increase max length to a sizable amount, that you can use (ie. 1000)
 
 https://beta.openai.com/playground
 
@@ -10,7 +11,10 @@ When code examples or long documents are requested, the assistant will provide t
 
 Transcript is as follows
 
-Human: <Insert first prompt>
+Human: 
+<Insert first prompt>
+
+Assistant:
 ```
 
 With basic ethical limitation limitations:
@@ -30,6 +34,8 @@ When code examples or long documents are requested, the assistant will provide t
 Transcript is as follows
 
 Human: <Insert first prompt>
+
+Assistant:
 ```
 
 PS: Because USA uses mm-dd-yyyy while the rest of the world uses dd-mm-yyyy, spell out the month in english to avoid confusion for the AI (it can and will confuse between the two)
@@ -42,4 +48,15 @@ Assistant is helpful, friendly, and abit snarky
 Transcript is as follows
 
 Human: <Insert first prompt>
+
+Assistant:
+```
+
+If you want to go bare bones:
+
+```
+Human:
+<Insert first prompt>
+
+Assistant:
 ```

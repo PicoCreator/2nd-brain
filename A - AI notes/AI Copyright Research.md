@@ -1,0 +1,37 @@
+- Highlevel press coverage
+	- Kotaku : https://kotaku.com/ai-art-dall-e-midjourney-stable-diffusion-copyright-1849388060
+	- verge : https://www.theverge.com/23444685/generative-ai-copyright-infringement-legal-fair-use-training-data
+- The case of 'Greg Rutkowski'
+	- https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/
+- random opinion pieces
+	- https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/some-thoughts-on-ai-art-tools
+	- https://www.youtube.com/watch?v=LseLPtU_J3Q&ab_channel=LeejaMiller
+
+- Academic legal papers
+	- AI and derivatives
+		- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4022665
+	- The death of the AI author? 
+		- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3374951
+	- Endgame of AI and copyright?
+		- https://www.jdsupra.com/legalnews/what-will-be-the-endgame-for-copyright-26124/
+	- AI work, an IP for an IP
+		- https://www.wipo.int/export/sites/www/about-ip/en/artificial_intelligence/call_for_comments/pdf/ind_singh_kc.pdf
+	- USPTO request for comments
+		- https://www.uspto.gov/sites/default/files/documents/Electronic%20Frontier%20Foundation_RFC-84-FR-58141.PDF
+	- Authorship in opensource summary
+		- https://google.github.io/opencasebook/authorship/
+		- https://www.cambridge.org/sg/academic/subjects/law/intellectual-property/copyright-and-collective-authorship-locating-authors-collaborative-work?format=PB&isbn=9781316649091
+
+- Notes
+	- Fairuse
+		- https://www.copyright.gov/fair-use/
+		- Facts? : https://www.lexisnexis.com/community/casebrief/p/casebrief-c-b-c-distribution-mktg-v-major-league-baseball-advanced-l-p
+	- Derivate works
+		- https://en.wikipedia.org/wiki/Derivative_work
+
+- Webscraping laws
+	- https://blog.apify.com/is-web-scraping-legal/#:~:text=The%20conclusion%20is%20supported%20by,are%20not%20available%20to%20public.
+	- https://medium.com/@tjwaterman99/web-scraping-is-now-legal-6bf0e5730a78
+	- https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn#cite_note-7
+	- https://iapp.org/news/a/linkedin-v-hiq-and-the-transatlantic-privacy-divide/
+	- https://law.justia.com/cases/federal/appellate-courts/ca9/17-16783/17-16783-2022-04-18.html

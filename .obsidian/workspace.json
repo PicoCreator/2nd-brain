@@ -6,6 +6,7 @@
       {
         "id": "70bbc2009341e9a0",
         "type": "tabs",
+        "dimension": 45.85679806918745,
         "children": [
           {
             "id": "07ee4f9038a41954",
@@ -18,8 +19,135 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aa4c2ef63986ed15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - AI notes/OpenAI playground - as chatGPT substitute.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "604832429e2947cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5697e5d4c3c3ad08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/How to build an answer bot (with ChatGPT or GPT3) with embeddings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c91cb815ccdfad7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf32bb0dc25b600b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - AI notes/README.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3032a425ab18604a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - AI notes/AI Model Hosting Provider.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "e7bb05303a162405",
+        "type": "tabs",
+        "dimension": 54.143201930812545,
+        "children": [
+          {
+            "id": "cda971394cccd7ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "080ff38449d1144b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22a553677af82f5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A - AI notes/Prompt Engineering Hacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5360587562d66806",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/uilicious-ask-tami-in-japanese.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 671.5
+    "width": 335.5
   },
   "right": {
     "id": "c600ea178e0fe897",
@@ -85,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/How Opensource style licensing, can resolve the AI legal debate - by classifying AI as derivative works.md",
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/How Opensource style licensing, can resolve the AI legal debate - by classifying AI as derivative works.md",
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/How Opensource style licensing, can resolve the AI legal debate - by classifying AI as derivative works.md"
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md"
               }
             }
           },
@@ -154,17 +282,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07ee4f9038a41954",
+  "active": "080ff38449d1144b",
   "lastOpenFiles": [
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/(LONG VERSION) Resolving the AI legal debate - A proposal for classifying AI as derivative works.md",
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/How Opensource style licensing, can resolve the AI legal debate - by classifying AI as derivative works.md",
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/unsplash/nicole-avagliano-qNM9zdGGPrg-unsplash.jpg",
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/markdown tables and graphs.md",
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/unsplash/content-pixie-NvZvtjn6Wrg-unsplash.jpg",
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/copyright-table.png",
-    "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Jan 2022 status/A summary of the current AI legal debate (Jan 2022).md",
-    "A - List of various things/P - List of potential ChatGPT use cases/Potential ChatGPT use cases.md",
+    "A - AI notes/Prompt Engineering Hacks.md",
+    "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
+    "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/How to build an answer bot (with ChatGPT or GPT3) with embeddings.md",
+    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Chat with chatGPT.md",
+    "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/uilicious-ask-tami-in-japanese.png",
+    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
+    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Untitled.md",
+    "A - AI notes/OpenAI playground - as chatGPT substitute.md",
     "A - AI notes/AI Document Search and Q&A Pipeline.md",
-    "A - AI notes/README.md.md"
+    "A - AI notes/AI Copyright Research.md"
   ]
 }
