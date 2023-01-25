@@ -101,53 +101,18 @@
         "dimension": 54.143201930812545,
         "children": [
           {
-            "id": "cda971394cccd7ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "080ff38449d1144b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "22a553677af82f5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - AI notes/Prompt Engineering Hacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5360587562d66806",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/uilicious-ask-tami-in-japanese.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md"
+                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md"
               }
             }
           },
@@ -285,6 +250,7 @@
   "active": "080ff38449d1144b",
   "lastOpenFiles": [
     "A - AI notes/Prompt Engineering Hacks.md",
+    "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
     "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
     "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/How to build an answer bot (with ChatGPT or GPT3) with embeddings.md",
     "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Chat with chatGPT.md",
@@ -292,7 +258,6 @@
     "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
     "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Untitled.md",
     "A - AI notes/OpenAI playground - as chatGPT substitute.md",
-    "A - AI notes/AI Document Search and Q&A Pipeline.md",
-    "A - AI notes/AI Copyright Research.md"
+    "A - AI notes/AI Document Search and Q&A Pipeline.md"
   ]
 }

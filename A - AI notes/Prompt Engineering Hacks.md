@@ -4,3 +4,6 @@ There is the obvious instruction GPT
 
 Batch questioning
 https://twitter.com/mathemagic1an/status/1617725433591758848
+
+Poorman RHFL
+https://twitter.com/mathemagic1an/status/1617606970114179072

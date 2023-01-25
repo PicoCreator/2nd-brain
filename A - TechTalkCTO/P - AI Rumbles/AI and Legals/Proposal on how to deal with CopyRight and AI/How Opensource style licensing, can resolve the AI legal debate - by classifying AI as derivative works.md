@@ -63,7 +63,7 @@ More specifically, the following sequence is proposed:
     - If an AI model is used to train another AI model (instead of a dataset), it is classified as a derivative of the base model, its training data, and its trainer model.
 - AI Output as derivative work, from the AI model, together with the "human operator" who provided a "prompt/instruction"*
 
-This proposal allows us to divide the copyright problem into distinct steps and rely on existing legal frameworks and case laws, particularly the legal framework revolving around "Collaborative authorship" of open-source code. It also helps to answer the three questions distinctively: 
+This proposal allows us to divide the copyright problem into distinct steps and rely on existing legal frameworks and case laws, particularly the legal framework revolving around "Collaborative authorship" of open-source code. It also helps to answer the three questions distinctively
 
 In this framework, it would also allow answering the 3 questions distinctively.
 
