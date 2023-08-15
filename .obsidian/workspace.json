@@ -6,107 +6,14 @@
       {
         "id": "70bbc2009341e9a0",
         "type": "tabs",
-        "dimension": 45.85679806918745,
         "children": [
           {
-            "id": "07ee4f9038a41954",
+            "id": "07a1eb2559f28043",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/AI and Legals/Proposal on how to deal with CopyRight and AI/How Opensource style licensing, can resolve the AI legal debate - by classifying AI as derivative works.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa4c2ef63986ed15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - AI notes/OpenAI playground - as chatGPT substitute.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "604832429e2947cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5697e5d4c3c3ad08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/How to build an answer bot (with ChatGPT or GPT3) with embeddings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c91cb815ccdfad7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf32bb0dc25b600b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - AI notes/README.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3032a425ab18604a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - AI notes/AI Model Hosting Provider.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "e7bb05303a162405",
-        "type": "tabs",
-        "dimension": 54.143201930812545,
-        "children": [
-          {
-            "id": "080ff38449d1144b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "a34900a612c9c1ff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -178,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
+                "file": "A - TechTalkCTO/P - Introducing Series/RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md"
+                "file": "A - TechTalkCTO/P - Introducing Series/RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md"
               }
             }
           },
@@ -247,17 +162,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "080ff38449d1144b",
+  "active": "07a1eb2559f28043",
   "lastOpenFiles": [
-    "A - AI notes/Prompt Engineering Hacks.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
+    "A - TechTalkCTO/P - Introducing Series/RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
+    "A - TechTalkCTO/P - Introducing Series/RWKV/Outline & Notes.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
+    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/uilicious-github-snippet.gif",
+    "A - AI notes/AI Model Hosting Provider.md",
+    "A - TechTalkCTO/P - Introducing Series/RWKV",
+    "A - AI notes/OpenAI playground - as chatGPT substitute.md",
+    "A - TechTalkCTO/P - AI Rumbles/The future of no code is just english/Article Draft.md",
+    "A - TechTalkCTO/P - AI Rumbles/How Google is slowly killing search - and how AI makes it worse/High level point form draft.md",
+    "A - TechTalkCTO/P - AI Rumbles/How Google is slowly killing search - and how AI makes it worse/How Google (and AI) slowly kills the internet that feeds it.md",
     "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how to harness its powers in vector search.md",
+    "A - AI notes/Prompt Engineering Hacks.md",
     "A - TechTalkCTO/P - AI Rumbles/How does embedding search work/Introducing - AI embeddings, and how it works for vector search ?.md",
     "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/How to build an answer bot (with ChatGPT or GPT3) with embeddings.md",
-    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Chat with chatGPT.md",
-    "A - TechTalkCTO/P - AI Rumbles/Building a answer bot with GPT3/uilicious-ask-tami-in-japanese.png",
-    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Integration Guide for LLM.md",
-    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Untitled.md",
-    "A - AI notes/OpenAI playground - as chatGPT substitute.md",
-    "A - AI notes/AI Document Search and Q&A Pipeline.md"
+    "A - TechTalkCTO/P - AI Rumbles/Integration Guide for LLM/Chat with chatGPT.md"
   ]
 }
