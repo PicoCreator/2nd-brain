@@ -8,7 +8,7 @@ And it matters, because as Engineers, we should not be using a one size fit all 
 
 Failure to do so, would lead us trapped within the limitation of one particular platform. While being blissfully unaware of all others alternatives. Potentially holding back on future development for years.
 
-And this problem is not unique to "AI". Its a pattern in history that does tend to repeat itself, from ancient times. To even modern times.
+And this problem is not unique to "AI". Its a pattern in history that does tend to repeat itself, from ancient times. To modern times.
 
 **A page from the SQL war history...**
 
@@ -26,9 +26,9 @@ Does that mean SQL is better then NoSQL. Or vice-visa? Neither, its simply just 
 
 In general there are three major ones
 
-- Quadratic computation cost increases, this causes an `O(N^2)` computational cost increase for every input token used, and output token generated. Making context sizes of >100k incredibly expensive to compute. This directly impact both inference and training cost
-- The current GPU shortage for AI infrastructure (in part due to that quadratic cost)
-- Limitation in context size window, and the ability to pay attention to them - heavily limiting "smart agents" use cases (like [smol-dev](https://github.com/PicoCreator/smol-dev-js) ), forcing such systems to use work arounds. The larger the context size we can push, the less work arounds we will need.
+- Quadratic computation costs, due to an `O(N^2)` computational cost increase for every input and output token used or generated. Making context sizes of >100k incredibly expensive to compute. This directly impact both inference and training cost
+- The current GPU shortage for AI infrastructure significantly makes this a bigger issue
+- Limitation in context size window, and the ability to pay attention to them - heavily limiting "smart agents" use cases (like [smol-dev](https://github.com/PicoCreator/smol-dev-js) ), forcing such systems to use work arounds. The larger the context size we can push, the less work arounds we will need (we are putting aside the lack of dataset issue for now, as that happens regardless of architecture)
 
 # Introducing RWKV - a linear transformer / modern large scale RNN
 
@@ -48,11 +48,12 @@ Linear Transformers, however instead of abandoning the Recurrent Neural Network 
 
 Bringing them back into the race with transformers, in terms of training speeds. Allowing them to both operate evfficently at `O(N)` cost, while scaling past a billion parameters in training. All while maintaining similar performance levels.
 
-< TODO : Insert image from the paper on computational cost scaling of transformer vs RWKV >
+![[linear-transformer-computational-cost.png]]
+> Graph showing linear transformer computational cost scaling linearly per token -vs- expotential cost increases for transformer models
+ 
+At this point of writing, RWKV is the largest OSS avaliable linear transformer. At 14B parameter counts, running on par with GPT-NeoX or other transformers with similar dataset training data (ie. the pile)
 
-At this point of writing, RWKV is the largest OSS avaliable linear transformer. At 14B parameter counts, running on par with GPT-NeoX on similar dataset training data (the pile)
-
-< TODO : RWKV vs GPT-neox graphs >
+![[zero-shot-pile-perf.png]]
 
 But what does this mean, in simpler terms?
 
@@ -75,7 +76,7 @@ So keep this on your radar for future developments.
 And if its efficiency is desired for your use case, why not give it a consideration?
 
 > Also one last thing i forget to mentioned:
-> Linear Transformers typically do not use classic Transformer attention, meaning ...
+> Linear Transformers typically do not use classic Transformer attention, but an approximate equivalent, meaning ...
 > 
 > [**Attention is Not All You Need**](https://arxiv.org/abs/2103.03404)
 
@@ -89,13 +90,10 @@ And if its efficiency is desired for your use case, why not give it a considerat
 
 ---
 
-> Disclosure: I am a code contributor to the RWKV project, and an active member in their community. 
+> Disclosure: I am a code contributor to the RWKV project, and an active member in the community. 
 > 
-> However it does not mean I view this as the final answer, even if in the future where "Linear Transformers" beat out traditional "Transformer" networks, research into alternatives is still important for healthy ecosystem development.
+> However it does not mean I view RWKV as the final answer, even if in the future where "Linear Transformers" beat out traditional "Transformer" networks in the future, research into alternatives is still important for healthy ecosystem development. 
 > 
-> Additionally, i am aware there has since been developments like TransformerXL to more efficiently scale transformers, somewhere between quadratic cost, and linear cost.
-
-
-
-
-
+> I strongly believe there is no such thing as "one architecture to rule them all"
+> 
+> Additionally, i am aware there has since been developments like TransformerXL to more efficiently scale transformers, somewhere between quadratic cost, and linear cost. However with very limited known implementation of this method in public, it is hard for me to evaluate its pros and cons.
