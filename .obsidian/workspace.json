@@ -11,9 +11,10 @@
             "id": "07a1eb2559f28043",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "diff-view",
               "state": {
-                "file": "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/zero-shot-pile-perf.png"
+                "file": "Untitled.canvas",
+                "staged": false
               }
             }
           }
@@ -91,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/zero-shot-pile-perf.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/zero-shot-pile-perf.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/zero-shot-pile-perf.png"
-              }
+              "state": {}
             }
           },
           {
@@ -160,13 +157,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9652d8374537b38",
+  "active": "07a1eb2559f28043",
   "lastOpenFiles": [
+    "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
+    "2023-09-04.md",
+    "Untitled.canvas",
+    "A - TechTalkCTO/P - RWKV Musings/AI - Lies, damned lies, and benchmarks/outline & notes.md",
+    "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/zero-shot-pile-perf.png",
+    "A - TechTalkCTO/P - RWKV Musings/The hunt for plastic memories - And the wavenet journey",
+    "A - TechTalkCTO/P - RWKV Musings/AI - Lies, damned lies, and benchmarks",
     "A - TechTalkCTO/P - AI Rumbles/The future of no code is just english/Article Draft.md",
     "A - TechTalkCTO/P - RWKV Musings",
-    "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
     "A - TechTalkCTO/P - AI Rumbles/Untitled",
-    "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/zero-shot-pile-perf.png",
     "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/linear-transformer-computational-cost.png",
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
     "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/Outline & Notes.md",
