@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "70bbc2009341e9a0",
+        "id": "322a3fb3968263e2",
         "type": "tabs",
         "children": [
           {
-            "id": "07a1eb2559f28043",
+            "id": "510ef67358defc0e",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Untitled.canvas",
-                "staged": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -157,9 +154,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07a1eb2559f28043",
+  "active": "510ef67358defc0e",
   "lastOpenFiles": [
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/RWKV architecture - Scaling an RNN to transformer scale.md",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/rwkv-paper-architecture.png",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/rwkv-cascading-pattern.gif",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/classic-rnn-without-sequential-state.png",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/rnn-sequential-flow.gif",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/ai-model-simplified.png",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/ai-model-simplified.png",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/classic-rnn-layers.png",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs",
+    "A - AI notes/Linear Transformer Signals (for RWKV or others).md",
+    "A - TechTalkCTO/P - RWKV Musings/Untitled",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale",
     "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/Introducing RWKV - an alternative to transformers - and why alternatives matter.md",
+    "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/return-of-the-jedi-img.jpeg",
     "2023-09-04.md",
     "Untitled.canvas",
     "A - TechTalkCTO/P - RWKV Musings/AI - Lies, damned lies, and benchmarks/outline & notes.md",
@@ -173,7 +183,6 @@
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/FBG - notes.md",
     "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV/Outline & Notes.md",
     "A - TechTalkCTO/P - Introducing Series/Factory Building Games/Introducing Factory Building Games - and how it levels you up as a programmer.md",
-    "A - TechTalkCTO/P - Introducing Series/Factory Building Games/uilicious-github-snippet.gif",
     "A - AI notes/AI Model Hosting Provider.md",
     "A - TechTalkCTO/P - RWKV Musings/Introducing RWKV",
     "A - AI notes/OpenAI playground - as chatGPT substitute.md",
