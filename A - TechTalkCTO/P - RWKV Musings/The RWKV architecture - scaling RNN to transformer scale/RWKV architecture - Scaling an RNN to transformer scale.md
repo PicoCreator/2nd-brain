@@ -20,6 +20,8 @@ If you are already familiar with AI/ML transformer architecture, skip to section
 - show how transformer QKV work on a high level
 - show how RNN state optimises this code
 
+[RWKV in ~100 lines](https://johanwind.github.io/2023/03/23/rwkv_details.html)
+
 # Section 2: Scaling RNN to transformer scale
 
 Lets take a step back, on a very fundamental level AI models for RNN or Transformer are input/output models with the following architecture
@@ -43,7 +45,7 @@ The main issue behind this is the sequential nature of RNN
 
 ![Classic RNN flow digram](./imgs/classic-rnn-layers.png)
 
-Note: the key highlight in RED, where state information is passed from the last layer on the first token "The", to the first layer of the second token "Quick". Producing the following sequential pattern
+Note the critical line in RED, where state information is passed from the last layer on the first token "The", to the first layer of the second token "Quick". Producing the following sequential pattern
 
 ![RNN sequential flow](./imgs/rnn-sequential-flow.gif)
 > https://jsfiddle.net/r5yv0a8g/24/
@@ -66,16 +68,36 @@ And with just that removal, the following ends up being the optimal cascading pa
 ![RWKV hypothetical cascading pattern](./imgs/rwkv-cascading-pattern.gif)
 > https://jsfiddle.net/buLswgem/31/
 
-> Note the cascading digram is the theoretical optimal, in practise some trainers and/or inference implementation may batch the cascade to chunks of tokens (32/64/128/256/512), to reduce VRAM lookup and latency, and improve overall performance.
+> Note the cascading digram is the theoretical design, in practise some trainers and/or inference implementation may batch the cascade to chunks of tokens (32/64/128/256/512), to reduce VRAM lookup and latency, and improve overall performance.
 
 ### Wait, so removing that LSTM state flow (the red line) just works?
 
-In terms of scaling, yes - and this may seem dead simple in hindsight. But it is arguably a big half of RWKV innovation, of how it allows RNN to be trained in a scalable manner (as duh as it is).
+In terms of scaling, yes - while this may seem dead simple in hindsight. It is "in my opinion" a big half of RWKV innovation, of how it allows RNN to be trained in a scalable manner (as duh as it is).
 
 However, because we removed a fundamental core of LSTM, the model will perform poorly. But that brings us to the next section.
 
-# Section 3: Replacing QKV and LSTM with RWKV
+# Section 3: Replacing QKV & LSTM with RWKV
 
+First let's go through the key components of QKV, when given the input embeddings. We generate an output embedding.
 
+For simplicity let's assume the embedding size is 1024, and the number of input tokens be 50, this gives us the following values.
 
+- Q is a 1D tensor of size 1024
+- K is a 2D tensor of size 500, and 1024
+- V is a 2D tensor of size 500, and 1024
 
+Q, is matrix multiplied against K, softmaxed, and matmuled against V again
+
+```.python
+# calculate dot product between Q and K (transpose K for correct shape)
+dot_prod = torch.matmul(Q, K.t())  # shape is [1, 500]
+
+# scale the dot product by sqrt of dimension of key (assuming it's 1024 here)
+scaled_dot_prod = dot_prod / torch.sqrt(torch.tensor(1024.))
+
+# softmax to get attention scores
+attention_scores = F.softmax(scaled_dot_prod, dim=-1)  # shape stays [1, 500]
+
+# multiply scores with V (attention_scores is expanded for correct broadcasting)
+output = torch.matmul(attention_scores.unsqueeze(1), V).squeeze(1)  # shape is [1, 1024]
+```
