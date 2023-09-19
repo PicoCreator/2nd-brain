@@ -78,13 +78,13 @@ However, because we removed a fundamental core of LSTM, the model will perform p
 
 # Section 3: Replacing QKV & LSTM with RWKV
 
-First let's go through the key components of QKV, when given the input embeddings. We generate an output embedding.
+First let's go through the key components of QKV attention, when given the input embeddings. We generate an output embedding.
 
 For simplicity let's assume the embedding size is 1024, and the number of input tokens be 50, this gives us the following values.
 
-- Q is a 1D tensor of size 1024
-- K is a 2D tensor of size 500, and 1024
-- V is a 2D tensor of size 500, and 1024
+- Q is a 1D tensor of size 1024 - derived from the input embedding (last token, or previous layer) 
+- K is a 2D tensor of size 500, and 1024 - derived from all tokens embeddings
+- V is a 2D tensor of size 500, and 1024 - derived from all tokens embeddings
 
 Q, is matrix multiplied against K, softmaxed, and matmuled against V again
 
