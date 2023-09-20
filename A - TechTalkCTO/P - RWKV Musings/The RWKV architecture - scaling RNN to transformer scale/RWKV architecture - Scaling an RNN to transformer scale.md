@@ -77,6 +77,7 @@ In terms of scaling, yes - while this may seem dead simple in hindsight. It is "
 However, because we removed a fundamental core of LSTM, the model will perform poorly. But that brings us to the next section.
 
 # Section 3: Replacing QKV & LSTM with RWKV
+### Note to Eugene: switch to code + paper for the paper reading
 
 First let's go through the key components of QKV attention, when given the input embeddings. We generate an output embedding.
 
@@ -88,9 +89,9 @@ For simplicity let's assume the embedding size is 1024, and the number of input 
 
 Q, is matrix multiplied against K, softmaxed, and matmuled against V again
 
-```.python
+```python
 # calculate dot product between Q and K (transpose K for correct shape)
-dot_prod = torch.matmul(Q, K.t())  # shape is [1, 500]
+dot_prod = Q @ K.t()  # shape is [1, 500]
 
 # scale the dot product by sqrt of dimension of key (assuming it's 1024 here)
 scaled_dot_prod = dot_prod / torch.sqrt(torch.tensor(1024.))
@@ -99,5 +100,62 @@ scaled_dot_prod = dot_prod / torch.sqrt(torch.tensor(1024.))
 attention_scores = F.softmax(scaled_dot_prod, dim=-1)  # shape stays [1, 500]
 
 # multiply scores with V (attention_scores is expanded for correct broadcasting)
-output = torch.matmul(attention_scores.unsqueeze(1), V).squeeze(1)  # shape is [1, 1024]
+output = (attention_scores.unsqueeze(1) @ V).squeeze(1)  # shape is [1, 1024]
+```
+
+### So what is RWKV ?
+
+```python
+# Time mix layer with the various params
+def time_mixing(
+		# Incoming state of the current token
+		x, 
+		# Previous token shift state 
+		last_x, 
+		# Previous state, split across 2 values to prevent overflows
+		last_num, last_den, 
+		# Various weights, all trainable
+		decay, bonus, mix_k, mix_v, mix_r, Wk, Wv, Wr, Wout
+	):
+	
+	# Given the incoming state, and the previous token shift state
+	# compute R,K,V values. The `x * mix + last * (1-mix)` pattern
+	# helps the model have trained weights to decide which factors 
+	# it wants to use for the respective process
+    k = Wk @ ( x * mix_k + last_x * (1 - mix_k) )
+    v = Wv @ ( x * mix_v + last_x * (1 - mix_v) )
+
+	# Since R is used for the final gating of output (similar to attention score)
+	# you can view this as a lite form of Q @ K
+    r = Wr @ ( x * mix_r + last_x * (1 - mix_r) )
+
+	# Here we effectively do magic(last_state + k) * v
+	#
+	# But in essence, its the "summation with decay" of all the past expotents
+	# divided by another set of expotents for numeric stability
+	# (aka anti exploding gradients). 
+	# 
+	# Bonus is used to boost the signal for the WKV value
+    wkv = (last_num + exp(bonus + k) * v) / \
+          (last_den + exp(bonus + k))
+    
+	# We compute the cumulative sum, for the next round, where it 
+	# is stored and forwarded as a state, with a gradual
+	# decay value on the previous value. 
+	# 
+	# `exp(-exp(decay))` is essentialy a math hack to ensure decay
+	# is between 0-1, and will gradually fade out past value if desired
+	# 
+	# `exp(k) / exp(k) * v` is the summation accumulation of the current state
+	# to be used in the next time mix
+    num = exp(-exp(decay)) * last_num + exp(k) * v
+    den = exp(-exp(decay)) * last_den + exp(k)
+
+	# sigmoid then acts looseley as both a part of Q in QKV, 
+	# and as a forget gate in LSTM (together with decay)
+	# for the WKV values
+    rwkv = sigmoid(r) * wkv
+
+	# And finally that gets normalized into an output, and an output
+    return Wout @ rwkv, (x,num,den)
 ```

@@ -162,8 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9652d8374537b38",
+  "active": "1f1dc8b153be25bf",
   "lastOpenFiles": [
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/quick-test.ipynb",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/rwkv-v4-100-lines.py",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/rwkv-100-lines.py",
+    "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/Untitled.md",
     "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/RWKV architecture - Scaling an RNN to transformer scale.md",
     "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/rwkv-paper-architecture.png",
     "A - TechTalkCTO/P - RWKV Musings/The RWKV architecture - scaling RNN to transformer scale/imgs/rwkv-cascading-pattern.gif",
