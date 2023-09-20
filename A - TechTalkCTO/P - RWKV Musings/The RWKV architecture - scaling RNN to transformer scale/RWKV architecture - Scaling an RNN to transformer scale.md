@@ -1,3 +1,6 @@
+> PS: if you are reading this from the llm-paper-club, this is a WIP article im writing.
+> this file is live, and is subjected to future changes
+
 The RWKV architecture present in general 2 major ideas, in helping scale RNN to be as performant as transformer in both speed and quality. We would be covering the main design features in three section
 
 - Crash course into some Transformer and RNN terms
