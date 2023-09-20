@@ -156,6 +156,6 @@ def time_mixing(
 	# for the WKV values
     rwkv = sigmoid(r) * wkv
 
-	# And finally that gets normalized into an output, and an output
+	# And finally that gets normalized into an output, and next state
     return Wout @ rwkv, (x,num,den)
 ```
